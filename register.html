@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link href="fontface.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="logo.png"
+    />
+    <link rel="stylesheet" href="mainregister.css" />
+
+    <title>Tournament | Register form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 15px;
+        text-align: center;
+        color:#000;
+      }
+      .attribution a {
+        color: hsl(0, 0%, 100%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="textcontainer">
+        <h1>
+          Transaction accept only Gpay/Paytm<br>PhonePay<br/>
+          
+        </h1>
+        <p >
+          <h3 style="text-align: center; color: #000;">Instruction<br /></h3>
+          <ul>
+            <li style="padding: 3px;">
+              <h3>Enter your ID Carefully</h3>
+            </li>
+            <li style="padding: 3px;">
+              <h3>Enter your transaction account mobile number and Name**</h3>
+            </li>
+            <li style="padding: 3px;">
+              <h3>Enter your What's app Number</h3>
+            </li>
+            <li style="padding: px;">
+              <h2 style="color: red;">Your are not send a payment your register can be canceld.</h2>
+            </li>
+
+          </ul><br />
+        </p>
+      </div>
+
+      <div class="form_container">
+        <a href="payment.html"><button style="background-color: hotpink; text-decoration-color: ivory;">
+           Make Payment
+         </button></a>
+        <button>
+          <strong><h3>Submit Before click Make Payment</h3></strong><br>
+        </button>
+        <div class="forminput">
+            <form action="#">
+              <div class="field">
+                <input
+                  type="text"
+                  aria-label="Input First Name"
+                  placeholder="Free Fire ID Number*"
+                  autocomplete="on"id="idnumber"
+                  required
+                />
+                </div>
+                <div class="field">
+                  <input
+                    type="text"
+                    aria-label="Input First Name"
+                    placeholder="Re Enter ID Number*"
+                    autocomplete="on"id="id2number"
+                    required
+                  />
+                  </div>
+              <div class="field">
+              <input
+                type="text"
+                aria-label="Input First Name"
+                placeholder="Your Name"
+                autocomplete="on"id="fname"
+                required
+              />
+              </div>
+               <p class="errmsg">First Name cannot be empty</p>
+              <div class="field">              
+                <input
+                type="text"
+                aria-label="Input Last Name"
+                placeholder="Transaction account user Name*"
+                autocomplete="on"
+                id="accountname"
+                required
+              />
+              </div>
+              <p class="errmsg">Account Name cannot be empty</p>
+              <div class="field">
+              <input
+                type="number"
+                aria-label="Email"
+                placeholder="Account Mobile number*"
+                autocomplete="on"
+                id="whatsapp"
+                required
+              />
+              </div>
+               <p class="errmsg">Looks like this is not an email</p>
+              <div class="field">
+              <input
+                type="number"
+                aria-label="Input Password"  
+                placeholder="Re Enter account mobile number"
+                autocomplete="on"
+                id="accountnumber"
+                required
+              />
+              </div>
+              <div class="field">
+                <input
+                  type="number"
+                  aria-label="Input First Name"
+                  placeholder="Your whats app number"
+                  autocomplete="on"id="account2number"
+                  required
+                />
+                </div>
+              <p class="errmsg">Password Cannot be empty</p>
+              <button class="claimbutton"  onclick="msg()" id="submit">
+                once you click the button your data is stored
+              </button>
+              <a href="payment.html" id="demo" style="text-align: center; color: red; padding: 10px;"></a>
+              <script>
+                function msg(){
+                  var txt;
+                  var r=confirm("your data is submitted make a payment");
+                  if(r==true){
+                    txt="MAKE A PAYMENT TO CONFIRM";
+                  }
+                  else{
+                    txt="MAKE A PAYMENT";
+                  }
+                  document.getElementById("demo").innerHTML=txt;
+                }
+              </script>
+            </form>
+             <p class="spantext">
+            By clicking the button, you are agreeing to our
+            <a href="#"><strong> Terms and Services</strong></a>
+          </p>
+          </div>
+        </div>
+        <!-- Form Input Closed -->
+      </div>
+      <!-- Form Container Closed -->
+    </div>
+    <!-- Parent Grid Container Closed -->
+
+    <footer>
+      <p class="attribution">
+        Transaction only 20 Rupees
+      </p>
+    </footer>
+    <script src=".js"></script>
+  </body>
+</html>
+
+

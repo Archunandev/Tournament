@@ -1,0 +1,770 @@
+@import 'mixins';
+@import 'keyframes';
+@import 'variables';
+*{
+    box-sizing:border-box;
+}
+html{
+    overflow-x:hidden;
+    font-size:17px;
+    scroll-behavior: smooth;
+}
+body{
+   margin:0;
+   padding:0;
+   background:url(../images/bg-curve-desktop.svg) no-repeat bottom;
+   background-size:100%;
+   overflow-x:hidden;
+}
+nav{
+    width:90%;
+    margin:0 auto;
+    display:flex;
+    margin-top:3em;
+    font-family:$raleway;
+    @include underline;
+    ul{
+        list-style-type:none;
+        display:flex;
+        order:2;
+        margin-left:auto;
+        padding:0;
+        li{
+            padding-left:3.5em;
+            a{
+                text-decoration:none;
+                color:hsl(0, 0%, 0%);
+                animation: anim_links 1.5s ease-in-out;
+            }
+        }
+    }
+}
+// Logo Animation 
+.nav_logo{
+    animation: anim_logo 1.5s ease-in-out;
+}
+.First{
+    display:flex;
+    margin:0 auto;
+    padding-top:2em;
+    width:90%;
+    justify-content: space-around;
+    .content{
+        align-self:center;
+        font-family:$raleway;
+        h1{
+            font-size:2rem;
+            line-height:2.8rem;
+            animation:scale 1.5s ease-in-out;
+            animation-delay:0.2s;
+        }
+        p{
+            width:90%;
+            font-family:$opensans;
+            animation:scale 1.5s ease-in-out;
+            animation-delay:0.4s;
+        }
+        form{
+            width:90%;
+            display:flex;
+            margin-top:1.8em;
+            animation:scale 1.5s ease-in-out;
+            animation-delay:0.6s;
+            .email{
+                width:60%;
+                border:1px solid hsl(0, 0%, 32%);
+                height:2.3em;
+                input{
+                 border:none;
+                 outline:none;
+                 width:100%;
+                 height:100%;
+                 padding:8px 16px 8px 16px;
+                 font-family:$opensans;
+                }
+                ::placeholder{
+                    font-family:$opensans;
+                }
+              }
+              .get_started{
+                  margin-left:5%;
+                  width:30%;
+                  background-color:$brightblue;
+                  border:none;
+                  outline:none;    
+                  cursor:pointer;
+                  border-radius:4px;
+                  color:$white;
+                  font-family:$raleway;
+                  font-weight:700;
+                  &:hover{
+                      opacity:0.9;
+                    }
+                }
+            }
+        }
+        @include illustration;
+    }
+    
+    
+    // First Section Closed 
+    // Main Container 
+    main{
+        width:100%;
+        background: url("../images/bg-curve-desktop.svg") no-repeat center top;
+        background-size: 100%;
+        padding:0;
+        margin-top:5em;
+    }
+    
+    // Second Section 
+    .Second{
+        @include illustration;
+        @include underline($moderatecyan);
+        display:flex;
+        width:90%;
+        margin:0 auto;
+        padding-top:7em;
+        h1{
+            font-size:2rem;
+            line-height:2.8rem;
+            font-family:$raleway;
+        }
+        p{
+            width:90%;
+            font-family:$opensans;
+        }
+        a{
+            display:inline-flex;
+            align-items: center;
+            text-decoration:none;
+            color:$moderatecyan;
+            font-family:$opensans;
+            img{
+                padding-left:0.5em;
+            }
+        }
+    }
+    
+    // Testimonial Card 
+    .testimonal_card{
+        margin-top:1.5em;
+        width:65%;
+        background:$white;
+        font-family:$opensans;
+        border-radius:6px;
+        padding:1.5em 0em 1.5em 1em;
+        box-shadow:0.2em 0.4em 0.8em $lightgray;
+        p{
+            font-family:$opensans;
+            margin:0;
+            font-size:0.9rem;
+        } 
+    }
+    // Testimonials Author Details 
+    .author{
+        display:flex;
+        font-family:$raleway;
+    padding-top:1em;
+    img{
+        border-radius:50%;
+        width:10%;
+        height:10%;
+    }
+}
+// Author Name 
+.authorname{
+    display:flex;
+    flex-direction: column;
+    padding-left:0.4em;
+    h2{
+        font-size:0.8rem;
+        margin:0.1em 0em 0.1em 0em;
+    }
+    span{
+        font-size:0.6rem;
+        font-family: $opensans;
+        margin:0;
+    }
+}
+    // Get Early Access Container 
+    .getaccess_container{
+        display:flex;
+        margin-top:8em;
+        padding:4em 6em 4em 4em;
+        background-color:$desaturatedblue;
+        color:$white;
+    }
+    .left{
+        width:40%;
+        h1{
+            font-family:$raleway;
+            margin:0em 0em 0.6em 0em;
+        }
+        p{
+            font-family:$opensans;
+            font-size:0.8rem;
+            line-height:1.4rem;
+            margin:0.2em 0em 0.2em 0em;
+            padding-right:6em;
+        }
+    }
+    
+    .getaccess_container form{
+        display:flex;
+        flex-direction: column;
+        margin-left:auto;
+        order:2;
+        width:30%;
+        .email{
+            border:1px solid hsl(0, 0%, 32%);
+            height:2.3em;
+            border-radius:7px;
+            input{
+                border:none;
+                outline:none;
+                width:100%;
+                height:100%;
+                padding:8px 16px 8px 16px;
+                font-family:$opensans;
+            }
+            ::placeholder{
+                font-family:$opensans;
+            }
+        }
+   button{
+   width:55%;
+   height:2.8em;
+   margin-top:1em;
+   background-color:$brightblue;
+   border:none;
+   outline:none;
+   border-radius:5px;    
+   cursor:pointer;
+   border-radius:4px;
+   color:$white;
+   font-family:$raleway;
+   font-weight:700;
+    &:hover{
+    opacity:0.9;
+   }
+ }
+}
+
+// Footer 
+footer{
+    display:flex;
+    flex-direction:column;
+    padding:4em 3em 0em 4.5em;
+    background-color:$verydarkblue;
+    .footer_content{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width:85%;
+        // padding:2em 1em 2em 1em;
+    }
+}
+// Hyperlinks Container 
+.hyperlinks{
+    display:flex;
+    width:100%;
+    justify-content:space-between;
+}
+// Contact 
+.contact{
+    @include underline($white);
+    display:flex;
+    justify-content:space-between;
+    flex-direction:column;
+    padding:0;
+    .details{
+        align-self:flex-start;
+        display:inline-flex;
+        flex-direction: column;
+    }
+    a{
+        display:inline-flex;
+        align-items: center;
+        text-decoration:none;
+        color:$white;
+        padding-top:1em;
+        font-family:$opensans;
+        img{
+            padding-right:0.8em;
+        }
+    }
+}
+
+// Footer Links 
+.links{
+    display:flex;
+    width:50%;
+    justify-content:center;
+    @include underline($white);
+    ul{
+        list-style-type: none;
+        margin-bottom:0;
+        li{
+            padding-bottom:1em;
+        }
+        a{
+            font-family:$opensans;
+            text-decoration:none;
+            color:$white;
+        }
+    }
+    .second_list{
+        padding-left:10em;
+    }
+}
+
+// Social Media Icons
+.socialmedia{
+    display:flex;
+    width:20%;
+    padding-top: 1em;
+    .icon{
+        display: flex;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        margin-left: 10px;
+        border-radius: 50%;
+        font-size: 1.2rem;
+        border: 1px solid rgb(255, 255, 255);
+        cursor: pointer;
+        &:hover{
+          opacity:0.8;
+        }
+        a{
+            align-self: center;
+            color: $white;
+        }
+    }  
+}
+
+
+// Media Queries Ahead
+@media (min-width:768px) and (max-width:1024px){
+    .First{
+        padding-top:3em;
+    .content{
+        h1{
+            font-size:1.4rem;
+            line-height:2rem;
+        }
+        p{
+            font-size:0.9rem;
+            line-height:1.4rem;
+        }
+      }
+    }
+    .nav_logo img{
+        width:80%;
+    }
+    .Second{
+        width:95%;
+         h1{
+            font-size:1.4rem;
+            line-height:2rem;
+         }
+        p{
+            font-size:0.9rem;
+            line-height:1.4rem;
+        }
+        a{
+           font-size:0.9rem;
+        }
+    }
+    .testimonal_card{
+        width:80%;
+    }
+    .getaccess_container{
+        padding: 3em 2em 3em 2em;
+    }
+    .left{
+        h1{
+            font-size:1.4rem;
+            line-height:2rem;
+        }
+        p{
+           font-size:0.9rem;
+           line-height:1.4rem;
+           padding:0;
+        }
+    }
+    .getaccess_container form button{
+        width:70%;
+    }
+    footer{
+        padding:3em 1em 0em 3.5em;
+        .footer_content{
+            width:95%;
+        }
+    }
+    .links{
+      width:40%;
+    ul{
+      padding:0;
+     }
+    .second_list{
+      padding-left:4em;
+    }   
+   }
+       .testimonal_card{
+        width:100%;
+        margin-top:2.5em;
+        padding: 1.5em 1.1em 1em 1.1em;
+        p{
+            color:$black;
+            line-height:1.5rem;
+        }
+    }
+}
+// Closed
+
+// Media Query for Tablets
+@media (min-width:481px) and (max-width:767px){
+    nav{
+        width:100%;
+        margin-top:2em;
+        display: flex;
+        align-items: center;
+        ul{
+            margin-left:auto;
+            order:2;
+            margin-right:1.5em;
+            display: flex;
+            align-items: center;
+            li a{
+                font-size: 0.9rem;
+            }
+        }
+    }
+    .nav_logo{
+        padding-left:1em;
+        img{
+            width:100px;
+            height:30px;
+        }
+    }
+    // First Section Styling 
+    .First{
+        flex-direction: column;
+         .content{
+            order:2;
+           h1{
+            font-size:1.8rem;
+            line-height:2.2rem;
+            text-align: center;
+            width:95%;
+            margin:0 auto;
+            margin-top:1.5em;
+           }
+           p{
+               width:90%;
+               margin:0 auto;
+               margin-top:1.5em;
+               text-align:center;
+               font-size:0.9rem;
+               line-height:1.5rem;
+           }
+        }
+        figure{
+            margin:0;
+            margin-top:2em;
+        }
+    }
+    .First .content form{
+        margin:0 auto;
+        margin-top:2.5em;
+    }
+     .Second{
+        padding-top:5em;
+        flex-direction: column;
+        figure{
+            margin:0 auto;
+        }
+        .content_second{
+            order:2;
+            margin-top:1.5em;
+        }
+        h1{
+            text-align:center;
+            font-size:1.4rem;
+        }
+        p{
+            color:$lightgray;
+            font-size:1rem;
+            line-height:1.4rem;
+            width:100%;
+            margin-right:0.6em;
+        }
+        .fylo_works{
+            display:flex;
+            justify-content: center;
+        }
+        a{
+            margin-top:1.5em;
+            font-size:0.95rem;
+        }
+    }
+    .testimonal_card{
+        width:100%;
+        margin-top:2.5em;
+        padding: 1.5em 1.1em 1em 1.1em;
+        p{
+            color:$black;
+            line-height:1.5rem;
+        }
+    }
+    .getaccess_container{
+        flex-direction: column;
+        padding:2.5em 2.5em 6.5em 2.2em;
+        .left{
+            width:100%;
+            h1{
+                margin:0;
+                width:100%;
+                font-size:1.6rem;
+                text-align:center;
+            }
+            p{
+                width:85%;
+                margin:0 auto;
+                margin-top:1em;
+                text-align:center;
+                padding:0;
+                font-size:0.9rem;
+            }
+        }
+        form{
+            width:80%;
+            margin:0 auto;
+            margin-top:1.5em;
+            .email{
+                width:100%;
+            }
+            button{
+                width:100%;
+            }
+        }
+    }
+    // Footer Styling for Smartphones 
+    footer{
+        padding:4em 0em 0em 2em;
+        .footer_content{
+            flex-direction: column;
+        }
+    }
+    .hyperlinks{
+        flex-direction: column;
+    }
+    .contact{
+        margin-top:1em;
+        margin-bottom:2em;
+    }
+    .links{
+        flex-direction: column;
+        ul{
+            padding: 0;
+            padding-top:1em;
+        }
+        .second_list{
+            padding:0;
+            margin-top:2.5em;
+        }
+    }
+    .socialmedia{
+        width:100%;
+        justify-content: center;
+    }
+}
+
+// Media Queries for Smartphones
+@media (max-width:480px){
+    nav{
+        width:100%;
+         margin-top:1.5em;
+         display:flex;
+         align-items:center;
+         ul{
+             margin-left:auto;
+             order:2;
+             margin-right:1em;
+             display: flex;
+             align-items: center;
+            li{
+                padding-left:1.6em;
+                a{
+                    font-size:0.82rem;
+                }
+            }
+         }
+    }
+    .nav_logo{
+        width:80px;
+        height:25px;
+        padding-left:0.8em;
+        img{
+        width:80px;
+        height:25px;
+        }
+    }
+    // First Section
+    .First{
+        flex-direction: column;
+        .content{
+            order:2;
+           h1{
+            font-size:1.3rem;
+            line-height:2.2rem;
+            text-align: center;
+            width:95%;
+            margin:0 auto;
+            margin-top:1.5em;
+           }
+           p{
+               width:90%;
+               margin:0 auto;
+               margin-top:1.5em;
+               text-align:center;
+               font-size:0.9rem;
+               line-height:1.5rem;
+           }
+        }
+        figure{
+            margin:0;
+            margin-top:2em;
+        }
+    }
+    .First .content form {
+        flex-direction: column;
+        margin:0 auto;
+        margin-top: 1.8em;
+        .email{
+            width:100%;
+        }
+        .get_started{
+            margin:0 auto;
+            margin-top:1.4em;
+            width:100%;
+            height:3em;
+        }
+    }
+    // First Section Content Styling Completed
+
+    // Curve Pattern
+    main{
+    background: url("../images/bg-curve-mobile.svg") no-repeat center top;
+    margin-top:5em;
+    }
+    // Second Section 
+    .Second{
+        padding-top:5em;
+        flex-direction: column;
+        figure{
+            margin:0 auto;
+        }
+        .content_second{
+            order:2;
+            margin-top:1.5em;
+        }
+        h1{
+            text-align:center;
+            font-size:1rem;
+        }
+        p{
+            color:$lightgray;
+            font-size:0.85rem;
+            line-height:1.4rem;
+            width:100%;
+            margin-right:0.6em;
+        }
+        .fylo_works{
+            display:flex;
+            justify-content: center;
+        }
+        a{
+            margin-top:1.5em;
+            font-size:0.95rem;
+        }
+    }
+    // Testimonial Card 
+    .testimonal_card{
+        width:100%;
+        margin-top:2.5em;
+        padding: 1.5em 1.1em 1em 1.1em;
+        p{
+            color:$black;
+            line-height:1.5rem;
+        }
+    }
+    // Get Early Access 
+    .getaccess_container{
+        flex-direction: column;
+        padding:2.5em 2.5em 6.5em 2.2em;
+        .left{
+            width:100%;
+            h1{
+                margin:0;
+                width:100%;
+                font-size:1.2rem;
+                text-align:center;
+            }
+            p{
+                width:85%;
+                margin:0 auto;
+                margin-top:1em;
+                text-align:center;
+                padding:0;
+            }
+        }
+        form{
+            width:80%;
+            margin:0 auto;
+            margin-top:1.5em;
+            .email{
+                width:100%;
+            }
+            button{
+                width:100%;
+            }
+        }
+    }
+    // Footer Styling for Smartphones 
+    footer{
+        padding:4em 0em 0em 2em;
+        .footer_content{
+            flex-direction: column;
+        }
+    }
+    .hyperlinks{
+        flex-direction: column;
+    }
+    .contact{
+        margin-top:1em;
+        margin-bottom:2em;
+    }
+    .links{
+        flex-direction: column;
+        ul{
+            padding: 0;
+            padding-top:1em;
+        }
+        .second_list{
+            padding:0;
+            margin-top:2.5em;
+        }
+    }
+    .socialmedia{
+        width:100%;
+        justify-content: center;
+    }
+}
+// Media Queries for Smartphones Completed
+
+// CSS FREEZE
+ 
+// CHALLENGE COMPLETED

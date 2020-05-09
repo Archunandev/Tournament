@@ -1,0 +1,45 @@
+// Logo Keyfraame
+@keyframes anim_logo{
+   from{
+      opacity:0;
+      transform:translateX(-60px);
+    } 
+   to{
+      opacity:1;
+      transform:translateX(0px);
+   }
+}
+// Navigation Links Keyframe
+@keyframes anim_links{
+   from{
+      opacity:0;
+      position:relative;
+      left:-20px;
+   } 
+   to{
+      opacity:1;
+      left:0px;
+   }
+}
+// Content Scale Keyframe 
+@keyframes scale{
+   from{
+      opacity:0;
+      transform:scaleY(0);
+   } 
+   to{
+      opacity:1;
+      transform:scaleY(1);
+   }    
+}
+// Image Scale Keyframe 
+@keyframes image{
+    from{
+        opacity:0;
+        transform:translateX(100px);
+    }
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+}

@@ -1,0 +1,35 @@
+// Underline Animation
+@mixin underline($color:hsl(0,0%,0%)){
+    .underline{
+    position:relative;
+   &:before{
+    content:"";
+    position:absolute;
+    bottom:-4px;
+    width:0%;
+    height:2px;
+    margin:15px 0px 0px;
+    opacity:0;
+    background-color:$color;
+    transition:all 0.2s ease-in-out;
+  }
+    &:hover{
+      &:before{
+          width:100%;
+          opacity:1;
+          transition:all 0.2s ease-in-out;
+      }
+   }
+ } 
+}
+
+// Illustration Image 
+@mixin illustration{
+ figure{
+      margin-right:0;
+      animation:image 1.5s ease-in-out;
+      img{
+      max-width:100%;
+     }
+   }
+}
