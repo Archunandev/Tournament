@@ -119,6 +119,16 @@ body {
   overflow-x: hidden;
 }
 
+mark{
+  background-color: orange;
+  border-color: red;
+  color: red;
+  cursor: pointer;
+  border-style: double;
+  border-radius:10px;
+
+}
+
 nav {
   width: 90%;
   margin: 0 auto;
