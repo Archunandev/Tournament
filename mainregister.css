@@ -10,8 +10,9 @@ html {
   --GrayishBlue: hsl(246, 25%, 77%);
 }
 body {
-  background: url() no-repeat;
-  background-color: var(--red);
+  background: url('images/bg-intro-desktop.png') no-repeat;
+  background-color: var(--DarkBlue);
+  background-attachment: fixed;
   overflow-x: hidden;
 }
 .container {
@@ -149,8 +150,9 @@ footer {
     width: 95%;
   }
   body {
-    background: url() no-repeat;
-    background-color: var(--red);
+    background: url('images/bg-intro-mobile.png') no-repeat;
+    background-color: var(--DarkBlue);
+    background-attachment: fixed;
   }
   .text-container {
     display: flex;
