@@ -474,7 +474,7 @@ main {
 }
 
 .getaccess_container form .email {
-  border: 1px solid #525252;
+  border: 1px solid #;
   height: 2.3em;
   border-radius: 7px;
 }
@@ -508,7 +508,7 @@ main {
   width: 55%;
   height: 2.8em;
   margin-top: 1em;
-  background-color: #3065f8;
+  background-color: #FFFF00;
   border: none;
   outline: none;
   border-radius: 5px;
