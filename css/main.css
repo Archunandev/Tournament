@@ -1120,6 +1120,26 @@ footer .footer_content {
     color: black;
     line-height: 1.5rem;
   }
+/*-----------------------------------*\
+  #BRAND
+\*-----------------------------------*/
+
+.brand {
+  --section-padding: 60px;
+  background-image: var(--gradient);
+}
+
+.brand .has-scrollbar { padding-block-end: 0; }
+
+.brand .has-scrollbar::-webkit-scrollbar { display: none; }
+
+.brand-item {
+  min-width: calc(50% - 10px);
+  scroll-snap-align: start;
+}
+
+.brand-item > img { margin-inline: auto; }
+
   .getaccess_container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
