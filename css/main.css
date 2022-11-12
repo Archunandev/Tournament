@@ -114,7 +114,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: white;
+  background: black;
   background-size: 100%;
   overflow-x: hidden;
 }
@@ -152,7 +152,7 @@ nav .underline:before {
   height: 2px;
   margin: 15px 0px 0px;
   opacity: 0;
-  background-color: black;
+  background-color: yellow;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
