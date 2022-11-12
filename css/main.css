@@ -120,9 +120,9 @@ body {
 }
 
 mark{
-  background-color: orange;
-  border-color: red;
-  color: red;
+  background-color: #6A0DAD;
+  border-color: yellow;
+  color: #6A0DAD;
   cursor: pointer;
   border-style: double;
   border-radius:10px;
@@ -473,7 +473,7 @@ main {
 }
 
 .getaccess_container form .email {
-  border: 1px solid #525252;
+  border: 1px solid #6A0DAD;
   height: 2.3em;
   border-radius: 7px;
 }
@@ -507,7 +507,7 @@ main {
   width: 55%;
   height: 2.8em;
   margin-top: 1em;
-  background-color: #3065f8;
+  background-color: yellow;
   border: none;
   outline: none;
   border-radius: 5px;
