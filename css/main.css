@@ -114,7 +114,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: url(../images/bg-curve-desktop.svg) no-repeat bottom;
+  background: black;
   background-size: 100%;
   overflow-x: hidden;
 }
@@ -125,12 +125,13 @@ mark{
   color: yellow;
   cursor: pointer;
   border-style: double;
-  border-radius:15px;
+  border-radius:25px;
 
 }
 
 nav {
-  width: 80%;
+  width: 8
+90%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
