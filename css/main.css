@@ -120,17 +120,17 @@ body {
 }
 
 mark{
-  background-color: orange;
-  border-color: red;
-  color: red;
+  background-color: purple;
+  border-color: yellow;
+  color: yellow;
   cursor: pointer;
   border-style: double;
-  border-radius:10px;
+  border-radius:15px;
 
 }
 
 nav {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -301,7 +301,7 @@ nav ul li a {
 
 main {
   width: 100%;
-  background: url("../images/bg-curve-desktop.svg") no-repeat center top;
+  background: black
   background-size: 100%;
   padding: 0;
   margin-top: 5em;
