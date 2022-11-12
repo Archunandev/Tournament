@@ -531,7 +531,7 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 4em 3em 0em 4.5em;
-  background-color: #070439;
+  background-color: #111111;
 }
 
 footer .footer_content {
