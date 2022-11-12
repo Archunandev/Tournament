@@ -150,7 +150,7 @@ footer {
     width: 95%;
   }
   body {
-    background: url('images/bg-intro-mobile.png') no-repeat;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwJqpcneakQ3V4-EEEVdmw0Da1j2IML9v8Lw&usqp=CAU') no-repeat;
     background-color: var(--DarkBlue);
     background-attachment: fixed;
   }
