@@ -437,7 +437,7 @@ main {
   margin-top: 8em;
   padding: 4em 6em 4em 4em;
   background-color: #6A0DAD;
-  color: black;
+  color: white;
 }
 
 .left {
@@ -513,7 +513,7 @@ main {
   border-radius: 5px;
   cursor: pointer;
   border-radius: 4px;
-  color: white;
+  color: black;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
 }
