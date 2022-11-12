@@ -435,7 +435,7 @@ main {
   display: -ms-flexbox;
   display: flex;
   margin-top: 8em;
-  padding: 4em 6em 4em 4em;
+  padding: 4em 4em 4em 4em;
   background-color: #6A0DAD;
   color: white;
 }
