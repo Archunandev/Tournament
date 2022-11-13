@@ -19,7 +19,7 @@ body{
 .container{
   position: relative;
   width: 400px;
-  background: white;
+  background: black;
   padding: 60px 40px;
 }
 header{
