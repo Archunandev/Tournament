@@ -1,117 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
-    <link href="fontface.css" rel="stylesheet" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="logo.png"
-    />
-    <link rel="stylesheet" href="mainregister.css" />
-
-    <title>PlayUnite | Login</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 15px;
-        text-align: center;
-        color:#000;
-      }
-      .attribution a {
-        color: hsl(0, 0%, 100%);
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <div class="textcontainer">
-        <h3>
-          Login / Sign-up <br/>
-          
-        </h3>
-
-          
-      
-              </div>
-               <p class="errmsg">First Name cannot be empty</p>
-              <div class="field">              
-                <input
-                type="number"
-                aria-label="Input Last Name"
-                placeholder="Phone Number *"
-                autocomplete="on"
-                id="accountname"
-                required
-              />
-              </div>
-              <p class="errmsg">Account Name cannot be empty</p>
-              <div class="field">
-              <input
-                type="text"
-                aria-label="Email"
-                placeholder="Email id*"
-                autocomplete="on"
-                id="whatsapp"
-                required
-              />
-              </div>
-               <p class="errmsg">Looks like this is not an email</p>
-              <div class="field">
-              <input
-                type="number"
-                aria-label="Input Password"  
-                placeholder="Password"
-                autocomplete="on"
-                id="accountnumber"
-                required
-              />
-              </div>
-              
-                </div>
-              <p class="errmsg">Password Cannot be empty</p>
-              <button class="claimbutton"  onclick="msg()" id="submit">
-                Login
-              </button>
-              <a href="payment.html" id="demo" style="text-align: center; color: red; padding: 10px;"></a>
-              <script>
-                function msg(){
-                  var txt;
-                  var r=confirm("You successfully Registered");
-                  if(r==true){
-                    txt="";
-                  }
-                  else{
-                    ";
-                  }
-                  document.getElementById("demo").innerHTML=txt;
-                }
-              </script>
-            </form>
-             <p class="spantext">
-            By clicking the button, you are agreeing to our
-            <a href="#"><strong> Terms and Services</strong></a>
-          </p>
-          </div>
-        </div>
-        <!-- Form Input Closed -->
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Animated Login Form</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body>
+      <div class="container">
+         <header>Login Form</header>
+         <form>
+            <div class="input-field">
+               <input type="text" required>
+               <label>Email or Username</label>
+            </div>
+            <div class="input-field">
+               <input class="pswrd" type="password" required>
+               <span class="show">SHOW</span>
+               <label>Password</label>
+            </div>
+            <div class="button">
+               <div class="inner"></div>
+               <button>LOGIN</button>
+            </div>
+         </form>
+         <div class="auth">
+            Or login with
+         </div>
+         <div class="links">
+            <div class="facebook">
+               <i class="fab fa-facebook-square"><span>Facebook</span></i>
+            </div>
+            <div class="google">
+               <i class="fab fa-google-plus-square"><span>Google</span></i>
+            </div>
+         </div>
+         <div class="signup">
+            Not a member? <a href="#">Signup now</a>
+         </div>
       </div>
-      <!-- Form Container Closed -->
-    </div>
-    <!-- Parent Grid Container Closed -->
-
-    <footer>
-      <p class="attribution">
-       
-      </p>
-    </footer>
-    <script src=".js"></script>
-  </body>
+      <script>
+         var input = document.querySelector('.pswrd');
+         var show = document.querySelector('.show');
+         show.addEventListener('click', active);
+         function active(){
+           if(input.type === "password"){
+             input.type = "text";
+             show.style.color = "#1DA1F2";
+             show.textContent = "HIDE";
+           }else{
+             input.type = "password";
+             show.textContent = "SHOW";
+             show.style.color = "#111";
+           }
+         }
+      </script>
+   </body>
 </html>
-
-
