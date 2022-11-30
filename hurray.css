@@ -87,7 +87,6 @@ body{
   position: absolute;
   left: -100%;
   background: -webkit-linear-gradient(135deg, #9b27ca, #d33639, #9b27ca, #d33639);
-  transition: all 0.4s ease;
 }
 .btn:hover .bg-layer{
   left: 0;
