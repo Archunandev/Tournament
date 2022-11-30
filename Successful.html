@@ -1,2 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
 
- <div id='card' class="animated fadeIn"> <div id='upper-side'> <?xml version="1.0" encoding="utf-8"?> <!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --> <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"> <svg version="1.1" id="checkmark" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" xml:space="preserve"> <path d="M131.583,92.152l-0.026-0.041c-0.713-1.118-2.197-1.447-3.316-0.734l-31.782,20.257l-4.74-12.65 c-0.483-1.29-1.882-1.958-3.124-1.493l-0.045,0.017c-1.242,0.465-1.857,1.888-1.374,3.178l5.763,15.382 c0.131,0.351,0.334,0.65,0.579,0.898c0.028,0.029,0.06,0.052,0.089,0.08c0.08,0.073,0.159,0.147,0.246,0.209 c0.071,0.051,0.147,0.091,0.222,0.133c0.058,0.033,0.115,0.069,0.175,0.097c0.081,0.037,0.165,0.063,0.249,0.091 c0.065,0.022,0.128,0.047,0.195,0.063c0.079,0.019,0.159,0.026,0.239,0.037c0.074,0.01,0.147,0.024,0.221,0.027 c0.097,0.004,0.194-0.006,0.292-0.014c0.055-0.005,0.109-0.003,0.163-0.012c0.323-0.048,0.641-0.16,0.933-0.346l34.305-21.865 C131.967,94.755,132.296,93.271,131.583,92.152z" /> <circle fill="none" stroke="#ffffff" stroke-width="5" stroke-miterlimit="10" cx="109.486" cy="104.353" r="32.53" /> </svg> <h3 id='status'> Success </h3> </div> <div id='lower-side'> <p id='message'> Congratulations, your account has been successfully created. </p> <a href="#" id="contBtn">Continue</a> </div> </div>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/dollar.png" type="image/png" sizes="16x16">
+    <title>Payment Success</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        background: #dcf0fa;
+    }
+
+    .container {
+        max-width: 380px;
+        margin: 50px auto;
+        overflow: hidden;
+    }
+
+    .printer-top {
+        z-index: 1;
+        border: 6px solid #666666;
+        height: 6px;
+        border-bottom: 0;
+        border-radius: 6px 6px 0 0;
+        background: #333333;
+    }
+
+    .printer-bottom {
+        z-index: 0;
+        border: 6px solid #666666;
+        height: 6px;
+        border-top: 0;
+        border-radius: 0 0 6px 6px;
+        background: #333333;
+    }
+
+    .paper-container {
+        position: relative;
+        overflow: hidden;
+        height: 467px;
+    }
+
+    .paper {
+        background: #ffffff;
+        font-family: 'Poppins', sans-serif;
+        height: 447px;
+        position: absolute;
+        z-index: 2;
+        margin: 0 12px;
+        margin-top: -12px;
+        animation: print 5000ms cubic-bezier(0.68, -0.55, 0.265, 0.9) infinite;
+        -moz-animation: print 5000ms cubic-bezier(0.68, -0.55, 0.265, 0.9) infinite;
+    }
+
+    .main-contents {
+        margin: 0 12px;
+        padding: 24px;
+    }
+
+    // Paper Jagged Edge
+    .jagged-edge {
+        position: relative;
+        height: 20px;
+        width: 100%;
+        margin-top: -1px;
+    }
+
+    .jagged-edge:after {
+        content: "";
+        display: block;
+        position: absolute;
+        //bottom: 20px;
+        left: 0;
+        right: 0;
+        height: 20px;
+        background: linear-gradient(45deg,
+            transparent 33.333%,
+            #ffffff 33.333%,
+            #ffffff 66.667%,
+            transparent 66.667%),
+            linear-gradient(-45deg,
+            transparent 33.333%,
+            #ffffff 33.333%,
+            #ffffff 66.667%,
+            transparent 66.667%);
+        background-size: 16px 40px;
+        background-position: 0 -20px;
+    }
+
+    .success-icon {
+        text-align: center;
+        font-size: 48px;
+        height: 72px;
+        background: #359d00;
+        border-radius: 50%;
+        width: 72px;
+        height: 72px;
+        margin: 16px auto;
+        color: #fff;
+    }
+
+    .success-title {
+        font-size: 22px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        color: #666;
+        font-weight: bold;
+        margin-bottom: 16px;
+    }
+
+    .success-description {
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        line-height: 21px;
+        color: #999;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .order-details {
+        text-align: center;
+        color: #333;
+        font-weight: bold;
+
+    }
+
+    .order-number-label {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .order-number {
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        line-height: 48px;
+        font-size: 48px;
+        padding: 8px 0;
+        margin-bottom: 24px;
+    }
+    
+    .complement {
+        font-size: 18px;
+        margin-bottom: 8px;
+        color: #32a852;
+    }
+
+    }
+    
+    @keyframes print {
+        0% {
+            transform: translateY(-90%);
+        }
+
+        100% {
+            transform: translateY(0%);
+        }
+    }
+
+    @-webkit-keyframes print {
+        0% {
+            -webkit-transform: translateY(-90%);
+        }
+
+        100% {
+            -webkit-transform: translateY(0%);
+        }
+    }
+
+    @-moz-keyframes print {
+        0% {
+            -moz-transform: translateY(-90%);
+        }
+
+        100% {
+            -moz-transform: translateY(0%);
+        }
+    }
+
+    @-ms-keyframes print {
+        0% {
+            -ms-transform: translateY(-90%);
+        }
+
+        100% {
+            -ms-transform: translateY(0%);
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="printer-top"></div>
+
+        <div class="paper-container">
+            <div class="printer-bottom"></div>
+
+            <div class="paper">
+                <div class="main-contents">
+                    <div class="success-icon">&#10004;</div>
+                    <div class="success-title">
+                        Payment Complete
+                    </div>
+                    <div class="success-description">
+                        Thank you for completing the payment! You will shortly receive an email of your payment.
+                    </div>
+                    <div class="order-details">
+                        <div class="order-number-label">Transaction ID</div>
+                        <div class="order-number">123456789</div>
+                        <div class="complement">Thank You!</div>
+                    </div>
+                </div>
+                <div class="jagged-edge"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
