@@ -301,7 +301,7 @@ nav ul li a {
 
 main {
   width: 100%;
-  background: url("../images/bg-curve-desktop.svg") no-repeat center top;
+  background: black;
   background-size: 100%;
   padding: 0;
   margin-top: 5em;
@@ -369,7 +369,7 @@ main {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  color: #3c9f8f;
+  color: white;
   font-family: "Open Sans", sans-serif;
 }
 
