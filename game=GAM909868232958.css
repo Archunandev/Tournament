@@ -10,7 +10,7 @@
   background:#56baed;
 }
 body{
-  background:#56baed;
+  background:#4c00b0;
 }
 .select-box, .play-board, .result-box{
   position: absolute;
@@ -204,7 +204,7 @@ body{
   font-weight: 500;
   padding: 8px 20px;
   border: none;
-  background: #56baed;
+  background: #4c00b0;
   border-radius: 5px;
   color: #fff;
   outline: none;
