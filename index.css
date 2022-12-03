@@ -365,7 +365,7 @@ Header Style
 
 .header-area .main-nav {
   min-height: 80px;
-  background: transparent;
+  background: black;
   display: flex;
   padding: 15px 0px;
   border-radius: 50px;
@@ -373,7 +373,7 @@ Header Style
 
 .background-header .main-nav {
   padding: 0px;
-  background-color: transparent;
+  background-color: black;
 }
 
 .header-area .main-nav #search {
@@ -401,7 +401,7 @@ Header Style
 }
 
 .header-area .main-nav .logo {
-  border-right: 1px solid #27292a;
+  border-right: 1px solid black;
   flex-basis: 25%;
   margin-right: 5%;
   -webkit-transition: all 0.3s ease 0s;
