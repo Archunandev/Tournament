@@ -350,7 +350,7 @@ Header Style
 }
 
 .header-area {
-  background-color: black;
+  background-color: #000000;
   position: absolute;
   height: 70px;
   top: 15px;
@@ -619,7 +619,7 @@ Header Style
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #fff;
+  color: black;
 }
 
 @media (max-width: 1200px) {
@@ -723,7 +723,7 @@ Header Style
     color: #1e1e1e !important;
   }
   .header-area .main-nav .nav li a:hover {
-    background: #fff !important;
+    background: black !important;
     color: #e75e8d!important;
   }
   .header-area .main-nav .nav li:last-child a img {
