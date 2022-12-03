@@ -381,7 +381,7 @@ Header Style
 }
 
 .header-area .main-nav #search input {
-  background-color: #27292a;
+  background-color: black;
   height: 46px;
   border-radius: 23px;
   border: none;
