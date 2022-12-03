@@ -221,7 +221,7 @@ section {
 }
 
 .heading-section h4 em {
-  color: black;
+  color: #fff;
   font-style: normal;
   text-decoration: underline;
 }
@@ -335,7 +335,7 @@ Header Style
 */
 
 .background-header {
-  background-color: #fff !important;
+  background-color: black !important;
   height: 70px!important;
   position: fixed!important;
   top: 0!important;
@@ -350,7 +350,7 @@ Header Style
 }
 
 .header-area {
-  background-color: transparent;
+  background-color: black;
   position: absolute;
   height: 70px;
   top: 15px;
