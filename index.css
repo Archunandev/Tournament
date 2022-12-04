@@ -586,7 +586,7 @@ Header Style
 .header-area .main-nav .menu-trigger.active span,
 .header-area .main-nav .menu-trigger.active span:before,
 .header-area .main-nav .menu-trigger.active span:after {
-  background-color: black;
+  background-color: transparent;
   width: 100%;
 }
 
@@ -595,7 +595,7 @@ Header Style
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: black;
+  background-color: transparent;
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
