@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: #1a1a1a;
     column-gap: 30px;
 }
 .form{
@@ -75,18 +75,18 @@ form{
     right: 10px;
     transform: translateY(-50%);
     font-size: 18px;
-    color: #8b8b8b;
+    color: #4c00b0;
     cursor: pointer;
     padding: 5px;
 }
 .field button{
     color: #4c00b0;
-    background-color: #0171d3;
+    background-color: #4c00b0;
     transition: all 0.3s ease;
     cursor: pointer;
 }
 .field button:hover{
-    background-color: #016dcb;
+    background-color: #4c00b0;
 }
 .form-link{
     text-align: center;
@@ -155,7 +155,7 @@ img.google-img{
     object-fit: cover;
 }
 a.google{
-    border: 1px solid #CACACA;
+    border: 1px solid #fff;
 }
 a.google span{
     font-weight: 500;
