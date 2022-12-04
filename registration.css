@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #4070f4;
+    background-color: #fff;
     column-gap: 30px;
 }
 .form{
@@ -22,7 +22,7 @@
     width: 100%;
     padding: 30px;
     border-radius: 6px;
-    background: #FFF;
+    background: #1a1a1a;
 }
 .form.signup{
     opacity: 0;
@@ -39,7 +39,7 @@
 header{
     font-size: 28px;
     font-weight: 600;
-    color: #232836;
+    color: #fff;
     text-align: center;
 }
 form{
@@ -80,7 +80,7 @@ form{
     padding: 5px;
 }
 .field button{
-    color: #fff;
+    color: #4c00b0;
     background-color: #0171d3;
     transition: all 0.3s ease;
     cursor: pointer;
@@ -99,7 +99,7 @@ form{
     color: #232836;
 }
 .form a{
-    color: #0171d3;
+    color: black;
     text-decoration: none;
 }
 .form-content a:hover{
