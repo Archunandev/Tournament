@@ -123,13 +123,13 @@ Global Styles
 */
 html,
 body {
-  background: #1f2122;
+  background: #1a1a1a;
   font-family: 'Poppins', sans-serif;
 }
 
 body .page-content {
   margin-top: 110px;
-  background-color: #27292a;
+  background-color: #1a1a1a;
   padding: 60px;
   border-radius: 23px;
 }
@@ -147,7 +147,7 @@ p {
 }
 
 ::-moz-selection {
-  background: #e75e8d;
+  background: #4c00b0;
   color: #fff;
 }
 
@@ -238,7 +238,7 @@ Pre-loader Style
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.99);
+  background-color: #1a1a1a;
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
@@ -322,7 +322,7 @@ Pre-loader Style
   width: 16px;
   height: 16px;
   margin-left: 16px;
-  background: #e75e8d;
+  background: #4c00b0;
   border-radius: 50%;
 }
 
