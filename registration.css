@@ -64,7 +64,7 @@ form{
 .field input{
     outline: none;
     padding: 0 15px;
-    border: 1px solid#CACACA;
+    border: 1px solid#fff;
 }
 .field input:focus{
     border-bottom-width: 2px;
@@ -99,7 +99,7 @@ form{
     color: #232836;
 }
 .form a{
-    color: #1a1a1a;
+    color: #fff;
     text-decoration: none;
 }
 .form-content a:hover{
@@ -118,8 +118,8 @@ form{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #FFF;
-    color: #fff;
+    background-color:;
+    color: ;
     padding: 0 15px;
 }
 .media-options a{
