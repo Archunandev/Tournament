@@ -611,7 +611,7 @@ Header Style
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
-  background-color: black;
+  background-color: transparent;
 }
 
 .header-area.header-sticky {
