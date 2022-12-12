@@ -619,7 +619,7 @@ Header Style
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: black;
+  color: transparent;
 }
 
 @media (max-width: 1200px) {
