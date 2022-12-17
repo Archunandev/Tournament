@@ -1,34 +1,34 @@
+import React, { useEffect } from 'react';
+import { GoogleButton } from 'react-google-button';
+import { UserAuth } from '../context/AuthContext';
+import { useNavigate } from 'react-router-dom';
 
+const Signin = () => {
+  const { googleSignIn, user } = UserAuth();
+  const navigate = useNavigate();
 
+  const handleGoogleSignIn = async () => {
+    try {
+      await googleSignIn();
+    } catch (error) {
+      console.log(error);
+    }
+  };
 
+  useEffect(() => {
+    if (user != null) {
+      navigate('/account');
+    }
+  }, [user]);
 
+  return (
+    <div>
+      <h1 className='text-center text-3xl font-bold py-8'>Sign in</h1>
+      <div className='max-w-[240px] m-auto py-4'>
+        <GoogleButton onClick={handleGoogleSignIn} />
+      </div>
+    </div>
+  );
+};
 
-
- const forms = document.querySelector(".forms"),
-      pwShowHide = document.querySelectorAll(".eye-icon"),
-      links = document.querySelectorAll(".link");
-
-pwShowHide.forEach(eyeIcon => {
-    eyeIcon.addEventListener("click", () => {
-        let pwFields = eyeIcon.parentElement.parentElement.querySelectorAll(".password");
-        
-        pwFields.forEach(password => {
-            if(password.type === "password"){
-                password.type = "text";
-                eyeIcon.classList.replace("bx-hide", "bx-show");
-                return;
-            }
-            password.type = "password";
-            eyeIcon.classList.replace("bx-show", "bx-hide");
-        })
-        
-    })
-})      
-
-links.forEach(link => {
-    link.addEventListener("click", e => {
-       e.preventDefault(); //preventing form submit
-       forms.classList.toggle("show-signup");
-    })
-})
-
+export default Signin;
