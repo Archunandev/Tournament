@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { GoogleButton } from 'react-google-button';
-import { UserAuth } from '../context/AuthContext';
+import { UserAuth } from 'authcontext.js';
 import { useNavigate } from 'react-router-dom';
 
 const Signin = () => {
