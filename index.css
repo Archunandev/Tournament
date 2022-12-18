@@ -595,7 +595,7 @@ Header Style
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #cdff03;
+  background-color: #transparent;
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
@@ -607,7 +607,7 @@ Header Style
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: transparent;
+  background-color: #cdff03;
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
