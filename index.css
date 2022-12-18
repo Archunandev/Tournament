@@ -534,7 +534,7 @@ Header Style
 .background-header .main-nav .menu-trigger span,
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #cdff03;
+  background-color: #transparent;
 }
 
 .header-area .main-nav .menu-trigger span:before,
