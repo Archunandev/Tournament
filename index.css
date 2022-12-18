@@ -534,7 +534,7 @@ Header Style
 .background-header .main-nav .menu-trigger span,
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #transparent;
+  background-color: #cdff03;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -595,7 +595,7 @@ Header Style
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #transparent;
+  background-color: #cdff03;
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
@@ -719,7 +719,7 @@ Header Style
     line-height: 50px !important;
     padding: 0px !important;
     border: none !important;
-    background: #fff !important;
+    background: #1e1e1e !important;
     color: #1e1e1e !important;
   }
   .header-area .main-nav .nav li a:hover {
@@ -730,7 +730,7 @@ Header Style
     display: none;
   }
   .header-area .main-nav .nav li:last-child a:hover {
-    color: #ec6090 !important;
+    color: #cdff03 !important;
     background-color: transparent !important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
@@ -1024,7 +1024,7 @@ Featured Games Style
 
 .featured-games .item ul li {
   text-align: right;
-  color: #fff;
+  color: #1e1e1e;
   font-size: 14px;
 }
 
@@ -1033,7 +1033,7 @@ Featured Games Style
 }
 
 .featured-games .item ul li:last-child i {
-  color: #4c00b0;
+  color: #cdff03;
 }
 
 .featured-games .owl-nav {
