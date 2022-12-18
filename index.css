@@ -142,12 +142,12 @@ p {
 }
 
 ::selection {
-  background: #4c00b0;
+  background: #cdff03;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #4c00b0;
+  background: #cdff03;
   color: #fff;
 }
 
@@ -159,7 +159,7 @@ p {
 .main-button a {
   font-size: 14px;
   color: #fff;
-  background-color: #4c00b0;
+  background-color: #cdff03;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -173,14 +173,14 @@ p {
 
 .main-button a:hover {
   background-color: #fff;
-  color: #e75e8d;
+  color: #cdff03;
 }
 
 .main-border-button a {
   font-size: 14px;
-  color: #4c00b0;
+  color: #cdff03;
   background-color: transparent;
-  border: 1px solid #4c00b0;
+  border: 1px solid #cdff03;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -299,7 +299,7 @@ Pre-loader Style
   height: 16px;
   top: 12px;
   left: 15px;
-  background: #4c00b0;
+  background: #cdff03;
   border-radius: 50%;
   -webkit-transform: translateX(0);
   transform: translateX(0);
@@ -322,7 +322,7 @@ Pre-loader Style
   width: 16px;
   height: 16px;
   margin-left: 16px;
-  background: #4c00b0;
+  background: #cdff03;
   border-radius: 50%;
 }
 
@@ -479,13 +479,13 @@ Header Style
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #e75e8d !important;
+  color: #cdff03 !important;
 }
 
 .header-area .main-nav .nav li:last-child:hover a,
 .header-area .main-nav .nav li:last-child a.active {
   color: #fff !important;
-  background-color: #e75e8d !important;
+  background-color: #cdff03 !important;
 }
 
 .background-header .main-nav .nav li:hover a,
@@ -523,7 +523,7 @@ Header Style
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #e75e8d;
+  background-color: #cdff03;
   display: block;
   position: absolute;
   width: 30px;
@@ -534,7 +534,7 @@ Header Style
 .background-header .main-nav .menu-trigger span,
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #e75e8d;
+  background-color: #cdff03;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -543,7 +543,7 @@ Header Style
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #e75e8d;
+  background-color: #cdff03;
   display: block;
   position: absolute;
   width: 30px;
@@ -554,12 +554,12 @@ Header Style
 
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #e75e8d;
+  background-color: #cdff03;
 }
 
 .header-area .main-nav .menu-trigger span:before,
 .header-area .main-nav .menu-trigger span:after {
-  content: "transparent";
+  content: "cdff03";
 }
 
 .header-area .main-nav .menu-trigger span {
@@ -586,7 +586,7 @@ Header Style
 .header-area .main-nav .menu-trigger.active span,
 .header-area .main-nav .menu-trigger.active span:before,
 .header-area .main-nav .menu-trigger.active span:after {
-  background-color: transparent;
+  background-color: #cdff03;
   width: 100%;
 }
 
@@ -595,7 +595,7 @@ Header Style
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: transparent;
+  background-color: #cdff03;
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
@@ -619,7 +619,7 @@ Header Style
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: transparent;
+  color: #cdff03;
 }
 
 @media (max-width: 1200px) {
@@ -662,7 +662,7 @@ Header Style
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #e75e8d!important;
+    color: #cdff03!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -724,7 +724,7 @@ Header Style
   }
   .header-area .main-nav .nav li a:hover {
     background: black !important;
-    color: #e75e8d!important;
+    color: #cdff03!important;
   }
   .header-area .main-nav .nav li:last-child a img {
     display: none;
@@ -796,7 +796,7 @@ Banner Style
 
 .main-banner h4 em {
   font-style: normal;
-  color: #ec6090;
+  color: #cdff03;
 }
 
 /* 
@@ -808,12 +808,12 @@ Most Popular Style
 .most-popular {
   margin-top: 60px;
   padding: 30px;
-  background-color: #1f2122;
+  background-color: #cdff03;
   border-radius: 23px;
 }
 
 .most-popular .item {
-  background-color: #27292a;
+  background-color: #cdff03;
   padding: 30px 15px;
   border-radius: 23px;
   margin-bottom: 30px;
@@ -882,7 +882,7 @@ Gaming Library Style
 }
 
 .gaming-library .item {
-  border-bottom: 1px solid #27292a;
+  border-bottom: 1px solid #cdff03;
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
@@ -953,7 +953,7 @@ footer p a {
 }
 
 footer p a:hover {
-  color: #4c00b0;
+  color: #cdff03;
 }
 
 /* 
@@ -992,7 +992,7 @@ Featured Games Style
 .featured-games .item .thumb .hover-effect h6 {
   background-color: rgba(31,33,34,0.95);
   display: inline-block;
-  color: #4c00b0;
+  color: #cdff03;
   font-weight: 600;
   font-size: 14px;
   padding: 10px 20px;
@@ -1063,7 +1063,7 @@ Featured Games Style
 .featured-games .owl-nav .owl-prev span:hover,
 .featured-games .owl-nav .owl-next span:hover {
   opacity: 1;
-  color: #4c00b0;
+  color: #cdff03;
 }
 
 .top-downloaded {
@@ -1113,13 +1113,13 @@ Featured Games Style
   height: 46px;
   text-align: center;
   line-height: 46px;
-  color: #4c00b0;
-  background-color: #27292a;
+  color: #cdff03;
+  background-color: #cdff03;
   border-radius: 50%;
 }
 
 .top-downloaded ul li {
-  border-bottom: 1px solid #27292a;
+  border-bottom: 1px solid #cdff03;
   margin-bottom: 28px;
   padding-bottom: 28px;
 }
@@ -1130,7 +1130,7 @@ Featured Games Style
 
 .top-downloaded .text-button a {
   font-weight: 600;
-  color: #4c00b0;
+  color: #cdff03;
   font-size: 15px;
 }
 
@@ -1239,7 +1239,7 @@ Live Stream Style
 
 .live-stream span i {
   color: #fff;
-  background-color: #ec6090;
+  background-color: #cdff03;
   border-radius: 50%;
   font-size: 12px;
   width: 20px;
@@ -1252,7 +1252,7 @@ Live Stream Style
 
 .live-stream span {
   font-size: 14px;
-  color: #ec6090;
+  color: #cdff03;
 }
 
 .live-stream .down-content h4 {
@@ -1292,7 +1292,7 @@ Featured Banner Style
   display: inline-block;
   text-align: center;
   line-height: 46px;
-  color: #4c00b0;
+  color: #cdff03;
 }
 
 /* 
@@ -1315,7 +1315,7 @@ Game Details Style
 }
 
 .game-details .content .left-info {
-  background-color: #27292a;
+  background-color: #cdff03;
   border-radius: 23px;
   padding: 30px;
   margin-bottom: 30px;
@@ -1352,7 +1352,7 @@ Game Details Style
 }
 
 .game-details .content .left-info ul li:last-child i {
-  color: #4c00b0;
+  color: #cdff03;
 }
 
 .game-details .content .right-info {
@@ -1380,7 +1380,7 @@ Game Details Style
 } 
 
 .game-details .content .right-info ul li i {
-  color: #4c00b0;
+  color: #cdff03;
 }
 
 .game-details .main-border-button {
@@ -1407,7 +1407,7 @@ Other Related Style
 
 .other-games .item {
   position: relative;
-  border-bottom: 1px solid #27292a;
+  border-bottom: 1px solid #cdff03;
   padding-bottom: 52px;
   margin-bottom: 30px;
 }
@@ -1458,7 +1458,7 @@ Top Streamers Style
 
 .top-streamers {
   border-radius: 23px;
-  background-color: #1f2122;
+  background-color: #cdff03;
   padding: 30px;
   max-height: 567px;
   min-height: 567px;
