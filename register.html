@@ -63,6 +63,7 @@
                     <a href="#" class="field google">
                         <img src="#" alt="" class="google-img">
                         <span>Login with Google</span>
+<script>
 signInRequest = BeginSignInRequest.builder()
     .setGoogleIdTokenRequestOptions(GoogleIdTokenRequestOptions.builder()
             .setSupported(true)
@@ -72,6 +73,7 @@ signInRequest = BeginSignInRequest.builder()
             .setFilterByAuthorizedAccounts(true)
             .build())
     .build();
+</script>
     
                     </a>
                 </div>
