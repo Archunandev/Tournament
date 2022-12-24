@@ -669,7 +669,8 @@ Header Style
     width: 100%;
   }
   .header-area {
-    background-color: #1e1e1e;
+    background: #f8f8f8;
+  background-image: linear-gradient(to right, #f8f8f8 0%, #e7e8ee 20%, #f8f8f8 40%, #f8f8f8 100%);
     padding: 0px 15px;
     height: 80px;
     box-shadow: none;
