@@ -845,7 +845,7 @@ Gaming Library Style
 .gaming-library {
   margin-top: 60px;
   padding: 30px;
-  background-color: #1f2122;
+  background-color: #14032b;
   border-radius: 23px;
 }
 
@@ -932,7 +932,7 @@ Featured Games Style
 
 .featured-games {
   border-radius: 23px;
-  background-color: #1f2122;
+  background-color: #14032b;
   padding: 30px;
 }
 
@@ -1141,7 +1141,7 @@ Live Stream Style
 .live-stream {
   margin-top: 60px;
   border-radius: 23px;
-  background-color: #1f2122;
+  background-color: #14032b;
   padding: 30px;
 }
 
@@ -1279,7 +1279,7 @@ Game Details Style
 .game-details .content {
   border-radius: 23px;
   padding: 30px;
-  background-color: #1f2122;
+  background-color: #14032b;
 }
 
 .game-details .content .left-info {
@@ -1369,7 +1369,7 @@ Other Related Style
 .other-games {
   border-radius: 23px;
   padding: 30px 30px 0px 30px;
-  background-color: #1f2122;
+  background-color: #14032b;
   margin-top: 60px;
 }
 
