@@ -77,7 +77,7 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font-family: 'Poppins', sans-serif;
+  font-family: DM Sans;
   font-weight: 400;
   background-color: -webkit-linear-gradient(315deg, #4b92fc, #5e08cf);
   font-size: 16px;
