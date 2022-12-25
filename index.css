@@ -123,13 +123,13 @@ Global Styles
 */
 html,
 body {
-  background: #170333;
+  background: #1b1c1b;
   font-family: 'Poppins', sans-serif;
 }
 
 body .page-content {
   margin-top: 110px;
-  background: #170333;
+  background: #1b1c1b;
   padding: 60px;
   border-radius: 23px;
 }
@@ -238,7 +238,7 @@ Pre-loader Style
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #170333;
+  background-color: #000000;
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
@@ -669,7 +669,7 @@ Header Style
     width: 100%;
   }
   .header-area {
-    background: #1a1a1a;
+    background: #000000;
     padding: 0px 15px;
     height: 80px;
     box-shadow: none;
