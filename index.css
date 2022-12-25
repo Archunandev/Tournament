@@ -123,13 +123,13 @@ Global Styles
 */
 html,
 body {
-  background: #1b1c1b;
+  background: #1a1a1a;
   font-family: 'Poppins', sans-serif;
 }
 
 body .page-content {
   margin-top: 110px;
-  background: #1b1c1b;
+  background: #1a1a1a;
   padding: 60px;
   border-radius: 23px;
 }
