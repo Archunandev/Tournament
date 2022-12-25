@@ -332,14 +332,14 @@ Search
 */
       body {
         background-color: #3745c2;
-        margin: 200px 40%;
+        margin: 50px 40%;
       }
 
       form {
         background-color: #4654e1;
-        width: 300px;
-        height: 44px;
-        border-radius: 5px;
+        width: 100px;
+        height: 20px;
+        border-radius: 3px;
         display:flex;
         flex-direction:row;
         align-items:center;
@@ -370,8 +370,8 @@ Search
       button {
         all: unset;
         cursor: pointer;
-        width: 44px;
-        height: 44px;
+        width: 12px;
+        height: 12px;
       }
 
 /* 
