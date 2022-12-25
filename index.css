@@ -1434,7 +1434,7 @@ Top Streamers Style
 .top-streamers ul li {
   display: inline-block;
   width: 100%;
-  border-bottom: 1px solid #353637;
+  border-bottom: 1px solid #1a1a1a;
   margin-bottom: 25px;
   padding-bottom: 25px;
 }
@@ -1448,7 +1448,7 @@ Top Streamers Style
 .top-streamers ul li span {
   float: left;
   font-size: 15px;
-  color: #fff;
+  color: #000000;
   font-weight: 700;
   padding-top: 12px;
   margin-right: 10px;
@@ -1457,7 +1457,7 @@ Top Streamers Style
 .top-streamers ul li h6 {
   display: inline;
   font-size: 14px;
-  color: #ec6090;
+  color: #00000;
   font-weight: 400;
 }
 
