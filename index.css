@@ -1597,6 +1597,49 @@ Profile Style
   margin-top: 10px;
   text-align: center;
 }
+/*-----------------------------------*\
+  #EXPLOER
+\*-----------------------------------*/
+
+.explore-card:hover { transform: translateY(-5px); }
+
+.explore-card .card-banner {
+  aspect-ratio: 1 / 1;
+  margin-block-end: 35px;
+}
+
+.explore-card .card-title > a:is(:hover, :focus) { color: var(--han-purple); }
+
+.explore-card .card-author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-block: 10px;
+}
+
+.explore-card .author-link {
+  color: var(--white);
+  font-family: var(--ff-jost);
+  font-weight: var(--fw-500);
+  transition: var(--transition-2);
+}
+
+.explore-card .author-link:is(:hover, :focus) { color: var(--han-purple); }
+
+.explore-card .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block-end: 15px;
+}
+
+.explore-card .wrapper-item { color: var(--white); }
+
+.explore-card .btn {
+  font-size: var(--fs-5);
+  --padding: 8px 15px;
+}
+
 
 /* 
 ---------------------------------------------
