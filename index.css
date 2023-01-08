@@ -79,7 +79,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: DM Sans;
   font-weight: 400;
-  background-image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsoHTasA6xSwXbuzpGuC6jtWQkB7EtEfJLcg&usqp=CAU;
+  background-image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsoHTasA6xSwXbuzpGuC6jtWQkB7EtEfJLcg&usqp=CAU";
   font-size: 16px;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -134,7 +134,7 @@ body .page-content {
   border-radius: 23px;
 }
 
-p {
+p {"
   font-size: 15px;
   color: #666;
   line-height: 30px;
