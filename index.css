@@ -79,7 +79,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: DM Sans;
   font-weight: 400;
-  background-color: -webkit-linear-gradient(315deg, #4b92fc, #5e08cf);
+  background-image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsoHTasA6xSwXbuzpGuC6jtWQkB7EtEfJLcg&usqp=CAU;
   font-size: 16px;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
