@@ -24,6 +24,43 @@
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
 </div>
+<!-- Include the Firebase library -->
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
+
+<!-- Create a container for the login button -->
+<div id="google-login-container"></div>
+
+<script>
+  // Initialize Firebase
+  var firebaseConfig = {
+    // Your Firebase config here
+  };
+  firebase.initializeApp(firebaseConfig);
+
+  // Create a Google provider instance
+  var provider = new firebase.auth.GoogleAuthProvider();
+
+  // Create a Firebase UI config object
+  var uiConfig = {
+    callbacks: {
+      signInSuccessWithAuthResult: function(authResult, redirectUrl) {
+        // Handle successful login
+        return true;
+      },
+      uiShown: function() {
+        // The widget is rendered, hide the loader
+        document.getElementById('loader').style.display = 'none';
+      }
+    },
+    // Add the Google provider to the list of providers
+    signInOptions: [firebase.auth.GoogleAuthProvider.PROVIDER_ID]
+  };
+
+  // Initialize the Firebase UI widget
+  var ui = new firebaseui.auth.AuthUI(firebase.auth());
+  ui.start('#google-login-container', uiConfig);
+</script>
 
 <script>
   // Initialize Firebase
