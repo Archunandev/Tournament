@@ -29,7 +29,48 @@
 <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
 
 <!-- Create a container for the login button -->
+<!-- Create a container for the login button -->
 <div id="google-login-container"></div>
+
+<style>
+  /* Style the login button container */
+  #google-login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 250px;
+    margin: 0 auto;
+    border: 2px solid #4285f4;
+    border-radius: 5px;
+  }
+  
+  /* Style the login button */
+  #google-login-container button {
+    background-color: #4285f4;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the login button on hover */
+  #google-login-container button:hover {
+    background-color: #357ae8;
+  }
+</style>
+
+<script>
+  // Initialize Firebase and create a Google provider instance
+  // as well as a Firebase UI config object as before.
+  // ...
+
+  // Initialize the Firebase UI widget
+  var ui = new firebaseui.auth.AuthUI(firebase.auth());
+  ui.start('#google-login-container', uiConfig);
+</script>
 
 <script>
   // Initialize Firebase
