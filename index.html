@@ -1542,35 +1542,28 @@ span.etn-event-timezone {
 </div> 
 
 <script> 
-var slidePosition = 1;
-SlideShow(slidePosition);
+let slideIndex =0;Index
+showSlides();
 
-// forward/Back controls
-function plusSlides(n) {
-  SlideShow(slidePosition += n);
-}
-
-//  images controls
-function currentSlide(n) {
-  SlideShow(slidePosition = n);
-}
-
-function SlideShow(n) {
-  var i;
-  var slides = document.getElementsByClassName("Containers");
-  var circles = document.getElementsByClassName("dots");
-  if (n > slides.length) {slidePosition = 1}
-  if (n < 1) {slidePosition = slides.length}
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+    slides[i].style.display = "none";  
   }
-  for (i = 0; i < circles.length; i++) {
-      circles[i].className = circles[i].className.replace(" enable", "");
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slidePosition-1].style.display = "block";
-  circles[slidePosition-1].className += " enable";
-} 
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
 </script>
+
 <div class="after-nav ">
 <div class="container">
 <div class="search-top">
