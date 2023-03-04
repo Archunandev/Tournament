@@ -1903,6 +1903,234 @@ function SlideShow(n) {
 <i class="fas fa-angle-double-up" aria-hidden="true"></i>
 </a>
 
+
+    <div id="cookiePopup" class="hide">
+
+      <img src="cookie.png" />
+
+      <p>
+
+        Our website uses cookies to provide your browsing experience and
+
+        relevant information. Before continuing to use our website, you agree &
+
+        accept of our <a href="#">Cookie Policy & Privacy.</a>
+
+      </p>
+
+      <button id="acceptCookie">Accept</button>
+
+    </div>
+
+    <!-- Script -->
+
+<style>* {
+
+  padding: 0;
+
+  margin: 0;
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  background-color: #f5f8ff;
+
+}
+
+#cookiePopup {
+
+  background-color: #ffffff;
+
+  position: absolute;
+
+  font-size: 14px;
+
+  width: 70vw;
+
+  max-width: 42.85em;
+
+  box-shadow: 0 0 2em rgba(5, 0, 31, 0.15);
+
+  font-family: "Poppins", sans-serif;
+
+  text-align: justify;
+
+  line-height: 1.8em;
+
+  padding: 2em 1.4em;
+
+  border-radius: 6px;
+
+  transition: all 0.5s ease-in;
+
+}
+
+#cookiePopup img {
+
+  display: block;
+
+  width: 3.75em;
+
+  transform: translateZ(0);
+
+  position: relative;
+
+  margin: auto;
+
+}
+
+#cookiePopup p {
+
+  text-align: center;
+
+  margin: 1.4em 0;
+
+}
+
+#cookiePopup button {
+
+  background-color: #6859fe;
+
+  border: none;
+
+  color: #ffffff;
+
+  font-size: 1.2em;
+
+  padding: 1em 1.4em;
+
+  display: block;
+
+  position: relative;
+
+  margin: auto;
+
+  border-radius: 5px;
+
+}
+
+#cookiePopup a {
+
+  color: #6859fe;
+
+}
+
+.hide {
+
+  visibility: hidden;
+
+  bottom: 0;
+
+  right: 2em;
+
+}
+
+.show {
+
+  visibility: visible;
+
+  bottom: 2em;
+
+  right: 2em;
+
+}
+
+@media only screen and (max-width: 37.5em) {
+
+  #cookiePopup {
+
+    width: 100%;
+
+  }
+
+  .hide {
+
+    bottom: 2em;
+
+    right: 0;
+
+  }
+
+  .show {
+
+    right: 0;
+
+    bottom: 0;
+
+  }
+
+}</style>
+
+    <script>let popUp = document.getElementById("cookiePopup");
+
+//When user clicks the accept button
+
+document.getElementById("acceptCookie").addEventListener("click", () => {
+
+  //Create date object
+
+  let d = new Date();
+
+  //Increment the current time by 1 minute (cookie will expire after 1 minute)
+
+  d.setMinutes(2 + d.getMinutes());
+
+  //Create Cookie withname = myCookieName, value = thisIsMyCookie and expiry time=1 minute
+
+  document.cookie = "myCookieName=thisIsMyCookie; expires = " + d + ";";
+
+  //Hide the popup
+
+  popUp.classList.add("hide");
+
+  popUp.classList.remove("show");
+
+});
+
+//Check if cookie is already present
+
+const checkCookie = () => {
+
+  //Read the cookie and split on "="
+
+  let input = document.cookie.split("=");
+
+  //Check for our cookie
+
+  if (input[0] == "myCookieName") {
+
+    //Hide the popup
+
+    popUp.classList.add("hide");
+
+    popUp.classList.remove("show");
+
+  } else {
+
+    //Show the popup
+
+    popUp.classList.add("show");
+
+    popUp.classList.remove("hide");
+
+  }
+
+};
+
+//Check if cookie exists when page loads
+
+window.onload = () => {
+
+  setTimeout(() => {
+
+    checkCookie();
+
+  }, 2000);
+
+};</script>
 <div id="myModalLSubmit" class="modal">
 <div class="modal-dialog">
 <div class="modal-content">
