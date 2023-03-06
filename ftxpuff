@@ -122,7 +122,7 @@ a.editable-click, body .woocommerce .woocommerce-info .showcoupon,#invite #buddy
 .nextmatch_wrap:hover .nm-teams span, input[type='password']:focus, input[type='datetime']:focus, input[type='datetime-local']:focus, input[type='date']:focus,
 input[type='month']:focus, input[type='time']:focus, input[type='week']:focus, input[type='number']:focus, input[type='email']:focus,
 input[type='url']:focus, input[type='search']:focus, input[type='tel']:focus, input[type='color']:focus, .uneditable-input:focus{
-	color: #ff8800 !important;
+	color: #7303fc !important;
 }
 
 body.woocommerce div.product .woocommerce-tabs .panel h2, .btn-border, .tc-forms .register-form-wrapper ul.tbmaps li:hover, .tc-forms .register-form-wrapper ul.tbmaps li.selected,
@@ -131,7 +131,7 @@ li.theChampSelectedTab, .tbbrakets .tbbstagesw ul li.active a, body .popover-tit
 .item-options#members-list-options a.selected, .item-options#members-list-options a:hover,  ul.tc-games li.active, ul.tc-games li:hover, ul.tc-games-team li.active, ul.tc-games-team li:hover,
 .item-options#members-list-options, .gallery-item a img, .match-map .map-image img, .nextmatch_wrap:hover img, 
 .wrap:hover .team1img, .matchimages img, .widget .teamwar-list > li:first-child, .footer_widget .teamwar-list > li:first-child{
-	border-color: #ff8800 !important;
+	border-color: #7303fc !important;
 }
 
 .is-style-outline>.wp-block-button__link:not(.has-text-color), .wp-block-button__link.is-style-outline:not(.has-text-color), body a.tbd_score, body nav.ubermenu-main .ubermenu-submenu .ubermenu-current-menu-item > .ubermenu-target, .tournaments-list h4, #buddypress div.item-list-tabs ul li a span, .widget.teamwarlist-page .teamwar-list .date strong, .footer_widget.teamwarlist-page .teamwar-list .date strong, #matches .mminfo span, .footer_widget .teamwar-list .home-team, .footer_widget .teamwar-list .vs, .footer_widget .teamwar-list .opponent-team, .widget .teamwar-list .home-team, .widget .teamwar-list .vs, .widget .teamwar-list .opponent-team, div.bbp-template-notice, div.indicator-hint, .social a , .widget-title i, .profile-teams a:hover, .friendswrapper .friends-count i, .slider_com_wrap, .portfolio .row .span8 .plove a:hover, .span3 .plove a:hover, .icons-block i:hover,
@@ -140,7 +140,7 @@ li.theChampSelectedTab, .tbbrakets .tbbstagesw ul li.active a, body .popover-tit
  .member h3, .main-colour, body a, .dropdown-menu li > a:hover, .wallnav i,  div.rating:after, footer .copyright .social a:hover, .navbar-inverse .brand:hover, .member:hover > .member-social a, footer ul li a:hover, .widget ul li a:hover, .next_slide_text .fa-bolt ,
   .dropdown-menu li > a:focus, .dropdown-submenu:hover > a,ul.tournaments-list li .tlinfow .tlist-info small, ul.news-main-list li:hover a strong, ul.news-main-list li:first-child:hover a strong, .extra-blurb .social-top a:hover, ul.matches-wrapper li:hover a > div.mw-left div strong, ul.matches-wrapper li:hover a > div.mw-right div strong,
   .comment-body .comment-author, .cart-wrap a, .bx-next-out:hover .next-arrow:before, body .navbar-wrapper .login-info .login-btn, body.page .tournaments_block_single .wcontainer li h4 {
-    color: #ff8800;
+    color: #7303fc;
 }
 body .newsbv li .ncategory, .ncategory, .user-wrap > a, .after-nav .container:before, .ticker-title, #sform input[type=search], .item-options#members-list-options a.selected, .item-options#members-list-options a:hover, div.pagination a:focus, div.pagination a:hover, div.pagination span.current, .page-numbers:focus, .page-numbers:hover, .page-numbers.current, body.woocommerce nav.woocommerce-pagination ul li a:focus, body.woocommerce nav.woocommerce-pagination ul li a:hover, body.woocommerce nav.woocommerce-pagination ul li span.current, .widget .teamwar-list .tabs li:hover a, .widget .teamwar-list .tabs li.selected a, .bgpattern, .woocommerce .cart-notification, .cart-notification, .splitter li[class*='selected'] > a, .splitter li a:hover, .ls-wp-container .ls-nav-prev, .ls-wp-container .ls-nav-next, a.ui-accordion-header-active, .accordion-heading:hover, .block_accordion_wrapper .ui-state-hover, .cart-wrap, .teamwar-list li ul.tabs li:hover, .teamwar-list li ul.tabs li.selected a:hover, .teamwar-list li ul.tabs li.selected a, .dropdown .caret,
 .tagcloud a, .progress-striped .bar ,  .bgpattern:hover > .icon, .progress-striped .bar, .member:hover > .bline, .blog-date span.date, .matches-tabw .matches-tab li a:hover, .matches-tabw .matches-tab li.active a, 
@@ -154,10 +154,10 @@ button:hover, button:focus, button:active, body .gamesb li img, .btn, .nav-tabs 
 .cube1, .cube2, .pulse, .dot1, .dot2, .three-bounce > div, .sk-circle .sk-child:before, .btn-border:hover, ul.news-main-list li a > span, ul.news-small-list li a:before,
 .sk-cube-grid .sk-cube, .sk-fading-circle .sk-circle:before,  .widget .teamwar-list > ul li.active a, #buddypress .item-list-tabs ul li a span,.wp-block-button__link,
  .buddypress .buddypress-wrap .activity-read-more a, .buddypress .buddypress-wrap .comment-reply-link, .buddypress .buddypress-wrap .generic-button a, .buddypress .buddypress-wrap a.bp-title-button, .buddypress .buddypress-wrap a.button, .buddypress .buddypress-wrap button, .buddypress .buddypress-wrap input[type=button], .buddypress .buddypress-wrap input[type=reset], .buddypress .buddypress-wrap input[type=submit], .buddypress .buddypress-wrap ul.button-nav:not(.button-tabs) li a{
-    background-color: #ff8800;
+    background-color: #7303fc;
 }
 .tbprice::-webkit-scrollbar-thumb{
-background-color: #ff8800;
+background-color: #7303fc;
 }
 
 body .btn-primary, body .btn-default, body .progress-bar, body #sform input[type=search], body #sformm input[type=search], .vc_tta-tab, #matches .match-fimage .mversus .deletematch, .navbar-wrapper .login-info .login-btn .fas,
@@ -172,13 +172,13 @@ button[type='button']:hover, button[type='button']:focus, button[type='button']:
 button:hover, button:focus, button:active, .footer_widget .teamwar-list .upcoming,
 .widget .teamwar-list .upcoming, .g_winner,
  .blog-date span.date, .blog-date-noimg span.date, .teamwar-list .draw, .carousel-indicators .active, .after-nav .login-info input[type='submi'], .after-nav .login-info a:hover{
-	background-color: #ff8800;
+	background-color: #7303fc;
 }
 p.wp-block-tag-cloud a:hover, input[type='submit']:hover, a.added_to_cart:hover, .wp-block-button__link:hover, .friendswrapper .add-friend:hover,.btn:hover, .button:hover, body .btn-primary, .btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus{
-	background-color: #ff5200 !important;
+	background-color: #7303fc !important;
 }
 input[type='submit']:hover, a.added_to_cart:hover, .btn:hover, .button:hover{
-    background-color:#ff5200;
+    background-color:#7303fc;
 }  
 a:hover{
    color:#ffffff !important;
@@ -188,7 +188,7 @@ a:hover{
 	box-shadow: 0px 2px 20px 0px #ff5200;
 }
 .slider_com_wrap *, ul.about-profile li, .topgradcolor, .post-pinfo a, .post-pinfo, .tlistinfo i, .post-review .score, .overall-score{
-	color:#ff5200 !important;
+	color:#7303fc !important;
 }
  
 
@@ -203,7 +203,7 @@ body .btn-default, .button-medium, .button-small, .button-big, button[type='subm
     border-bottom: 38px solid #ff8800;
 }
 .next-arrow{
-	border-left: 30px solid #ff5200;
+	border-left: 30px solid #7303fc;
 }
 
 .tbmapsi li:hover > div , .tbmapsi li.selected_map > div,div.bbp-template-notice, div.indicator-hint,  div.pagination a, div.pagination span,body.woocommerce nav.woocommerce-pagination ul li a, body.woocommerce nav.woocommerce-pagination ul li span, .pagination ul.wp_pag > li {
@@ -1651,37 +1651,9 @@ Daily </span>
 <p></p>
 </div> </div>
 </div>
-<div class="footer_column">
-<div class="fc_inner">
 
-<div id="arcane_tournament_carousel_widget-3" class="widget-1 first widget arcane_tournament_carousel_widget"> <div class="nextmatch_widget">
-<h4>Tournament Carousel</h4>
-<div id="tournamentCarousel1944356129" class="tournamentCarousel carousel slide carousel-fade" data-ride="carousel" data-interval="8000">
-<ul class="tournaments-list carousel-inner" role="listbox">
-<li class="citem"><div class="tlinfow"><a href="https://www.akef.in/tournament/aebs-akef-elite-bgmi-scrims/"><img alt="img" data-src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="img" data-src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="img" data-src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="img" data-src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="img" data-src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="img" src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" /></noscript></noscript></noscript></noscript></noscript></a><div class="tlist-info"><a href="https://www.akef.in/tournament/aebs-akef-elite-bgmi-scrims/">AEBS | AKEF Elite BGMI Scrims</a><span>Battlegrounds Mobile India</span><small><i data-feather="users"></i>0/300 Teams Registered</small></div><div class="tlist-join"><small>Start date:</small><strong>2022-01-03 12:00</strong></div><div class="tlinfoextra"><div class="tlist-join"><i data-feather="git-branch"></i><small>Tournament type</small><strong>League</strong></div><div class="tlist-join"><i data-feather="monitor"></i><small>Platform</small><strong>Mobile</strong></div><div class="tlist-join"><i data-feather="crosshair"></i><small>Game format</small><strong>Best of 2</strong></div></div></div></li><li class="citem"><div class="tlinfow"><a href="https://www.akef.in/tournament/easy-manager-tourney/"><img alt="img" data-src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="img" data-src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="img" data-src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="img" data-src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="img" data-src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="img" src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" /></noscript></noscript></noscript></noscript></noscript></a><div class="tlist-info"><a href="https://www.akef.in/tournament/easy-manager-tourney/">EASY MANAGER TOURNEY</a><span>Battlegrounds Mobile India</span><small><i data-feather="users"></i>0/10 Teams Registered</small></div><div class="tlist-join"><small>Start date:</small><strong>2022-02-07 12:00</strong></div><div class="tlinfoextra"><div class="tlist-join"><i data-feather="git-branch"></i><small>Tournament type</small><strong>Knockout</strong></div><div class="tlist-join"><i data-feather="monitor"></i><small>Platform</small><strong>Mobile</strong></div><div class="tlist-join"><i data-feather="crosshair"></i><small>Game format</small><strong>Best of 1</strong></div></div></div></li><li class="citem"><div class="tlinfow"><a href="https://www.akef.in/tournament/aebs-akef-elite-bgmi-scrims-w2/"><img alt="img" data-src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="img" data-src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="img" data-src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="img" data-src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="img" data-src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="img" src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" /></noscript></noscript></noscript></noscript></noscript></a><div class="tlist-info"><a href="https://www.akef.in/tournament/aebs-akef-elite-bgmi-scrims-w2/">AEBS | AKEF Elite BGMI Scrims | W2</a><span>Battlegrounds Mobile India</span><small><i data-feather="users"></i>0/300 Teams Registered</small></div><div class="tlist-join"><small>Start date:</small><strong>2022-01-10 12:00</strong></div><div class="tlinfoextra"><div class="tlist-join"><i data-feather="git-branch"></i><small>Tournament type</small><strong>League</strong></div><div class="tlist-join"><i data-feather="monitor"></i><small>Platform</small><strong>Mobile</strong></div><div class="tlist-join"><i data-feather="crosshair"></i><small>Game format</small><strong>Best of 2</strong></div></div></div></li><li class="citem"><div class="tlinfow"><a href="https://www.akef.in/tournament/aebs-akef-elite-bgmi-scrims-w1d1/"><img alt="img" data-src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="img" data-src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="img" data-src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="img" data-src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="img" data-src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="img" src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" /></noscript></noscript></noscript></noscript></noscript></a><div class="tlist-info"><a href="https://www.akef.in/tournament/aebs-akef-elite-bgmi-scrims-w1d1/">AEBS | AKEF Elite BGMI Scrims | W1D1</a><span>Battlegrounds Mobile India</span><small><i data-feather="users"></i>0/40 Teams Registered</small></div><div class="tlist-join"><small>Start date:</small><strong>2022-01-17 22:00</strong></div><div class="tlinfoextra"><div class="tlist-join"><i data-feather="git-branch"></i><small>Tournament type</small><strong>League</strong></div><div class="tlist-join"><i data-feather="monitor"></i><small>Platform</small><strong>Mobile</strong></div><div class="tlist-join"><i data-feather="crosshair"></i><small>Game format</small><strong>Best of 2</strong></div></div></div></li><li class="citem"><div class="tlinfow"><a href="https://www.akef.in/tournament/aebs-akef-elite-bgmi-scrims-w1d2/"><img alt="img" data-src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="img" data-src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="img" data-src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="img" data-src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="img" data-src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="img" src="https://www.akef.in/wp-content/uploads/2022/01/ce3be-16324974686158-800-85x118.jpg" /></noscript></noscript></noscript></noscript></noscript></a><div class="tlist-info"><a href="https://www.akef.in/tournament/aebs-akef-elite-bgmi-scrims-w1d2/">AEBS | AKEF Elite BGMI Scrims | W1D2</a><span>Battlegrounds Mobile India</span><small><i data-feather="users"></i>0/40 Teams Registered</small></div><div class="tlist-join"><small>Start date:</small><strong>2022-01-18 22:00</strong></div><div class="tlinfoextra"><div class="tlist-join"><i data-feather="git-branch"></i><small>Tournament type</small><strong>Round Robin</strong></div><div class="tlist-join"><i data-feather="monitor"></i><small>Platform</small><strong>Mobile</strong></div><div class="tlist-join"><i data-feather="crosshair"></i><small>Game format</small><strong>Best of 2</strong></div></div></div></li>
-</ul>
-<a class="left3 carousel-control" href="#tournamentCarousel1944356129" role="button" data-slide="prev">
-<span class="fas fa-chevron-left" aria-hidden="true"></span>
-<span class="sr-only">Previous</span>
-</a>
-<a class="right3 carousel-control" href="#tournamentCarousel1944356129" role="button" data-slide="next">
-<span class="fas fa-chevron-right" aria-hidden="true"></span>
-<span class="sr-only">Next</span>
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="footer_column">
-<div class="fc_inner">
 
-<div id="bp_core_whos_online_widget-3" class="widget-1 first widget widget_bp_core_whos_online_widget buddypress widget"><h4>Who&#8217;s Online</h4>
-<div class="widget-error">
-There are no users currently online </div>
-</div> </div>
-</div>
-</div>
+
 </footer>
 <div class="copyright ">
 <div class="container">
