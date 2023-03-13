@@ -9,31 +9,39 @@
 </body>
 </html>
 
-<div class = "login-container">
+<div class="forms-out">
+    <div class="forms-in">
+      <div id="registration-page" class="hide">
+        <button id="show-login">Sign In</button>
+        <h3>Sign Up</h3>
+        Email <br />
+        <input type="email" id="registration-email" /><br />
+        Confirm Email <br />
+        <input
+        type="email"
+        id="registration-reemail"
+        autocomplete="disable"
+        /><br />
+        Password <br />
+        <input type="password" id="registration-password" /><br />
+        <center><button id="register">Sign Up</button></center>
+      </div>
+
+      <div id="login-page">
+        <button id="show-register">Sign Up</button>
+        <h3>Sign In</h3>
+        Email <br />
+        <input type="email" id="login-email" /><br />
+        Password <br />
+        <input type="password" id="login-password" /><br />
+        <p id="forgot-password">Forgot Password</p>
+        <center><button id="login">Sign In</button></center>
+      </div>
+
+      <div id="homepage" class="hide">
+        <button id="signout">Sign Out</button>
+        <h3>Logged In</h3>
+<script src = "fire001.js>
+      </div>
+    </div>
 </div>
-
-<div id= "main">
-</div>
-
-<div id = "create-acct">
-</div>
-
-
-<h1>Sign In</h1>
-<input id = "email" type = "text" placeholder = "Email"></input>
-<input id = "password" type = "password" placeholder = "Password"></input>
-<button id = "submit">Submit</button>
-<p><span>or</span></p>
-<button id = "sign-up">Sign Up</button>
-
-
-<h1>Create an Account</h1>
-<input id = "email-signup" type = "text" placeholder = "Email *"></input>
-<input id = "confirm-email-signup" type = "email" placeholder = "Confirm Email *"></input>
-<input id = "password-signup" type = "password" placeholder = "Password *"></input>
-<input id = "confirm-password-signup" type = "password" placeholder = "Confirm Password *"></input>
-<button id = "create-acct-btn">Create Account</button>
-<button id = "return-btn">Return to Login</button>
-
-
- <script type = "module" src = "fire001.js"></script>
