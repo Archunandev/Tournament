@@ -1,4 +1,3 @@
-//Remove the default margins, padding, and box-sizing from all of the elements on the page.
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,18 +5,15 @@
   font-family: sans-serif;
 }
 
-//Choose a background color for the body of the page.
 body {
-  background-color: lightblue;
+  background-color: purple;
 }
 
-//Center-align the main heading ("Log In") and add a bottom margin.
 h1 {
   margin-bottom: 8%;
   text-align: center;
 }
 
-//Style the paragraph element ("or") to be center with horizontal lines on each side.
 p {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -32,7 +28,6 @@ p span {
   padding:0 10px;
 }
 
-//Add some breathing room around the input fields.
 input {
   margin-bottom: 3%;
 }
@@ -46,7 +41,6 @@ input, button {
   width: 100%;
 }
 
-//Vertically and horizontally center the login-container.
 .login-container {
   background-color: white;
   padding: 7%;
@@ -59,12 +53,10 @@ input, button {
   margin-top: 15vh;
 }
 
-//Hide the create-acct div on the original loading of the page.
 #create-acct {
   display: none;
 }
 
-//Style the submit, create-acct-btn and return-btn.
 button:hover {
   cursor: pointer;
   opacity: 0.8;
