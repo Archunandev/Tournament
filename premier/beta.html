@@ -1,0 +1,1243 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Esportz Premier Series</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/odometer.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/meanmenu.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/icons.css" type="text/css" />
+</head>
+<style>
+    body,
+    html {
+        height: 100%;
+    }
+    
+    .transparent-header {
+        top: 0px;
+    }
+    
+    @font-face {
+        font-family: bebasNeue;
+        src: url(fonts/BebasNeue-Book.ttf);
+    }
+    
+    @font-face {
+        font-family: gotham;
+        src: url(fonts/Gotham\ Bold.otf);
+    }
+    
+    body {
+        font-family: gotham !important;
+    }
+    
+    .esp-logo {
+        height: 120px
+    }
+    
+    @media only screen and (max-width: 720px) {
+        .esp-logo {
+            height: 80px;
+        }
+        .logo-div {
+            text-align: left !important;
+        }
+    }
+    
+    .video-wrap {
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+    }
+    
+    .logo-div {
+        text-align: center;
+    }
+    
+    video {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    @media (min-width: 992px) {
+        #top-bar.transparent-topbar {
+            background: #282828 !important;
+        }
+    }
+    
+    @media (min-width: 992px) {
+        #top-bar.transparent-topbar {
+            z-index: 399;
+            border-bottom: 0;
+        }
+    }
+    
+    .dark #top-bar,
+    #top-bar.dark {
+        border-bottom-color: rgba(255, 255, 255, 0.1);
+        background-color: #282828;
+    }
+    
+    #top-bar {
+        position: relative;
+        border-bottom: 1px solid #EEE;
+        font-size: 13px;
+    }
+    
+    .dark {
+        color: #EEE;
+    }
+    
+    .dark .top-links {
+        border-bottom-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    @media (min-width: 768px) {
+        .top-links {
+            border-bottom: 0;
+        }
+    }
+    
+    .top-links {
+        position: relative;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+        border-bottom: 1px solid #EEE;
+    }
+    
+    .top-links-container {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        list-style: none;
+        margin-bottom: 0;
+    }
+    
+    .dark .top-links-item {
+        border-left-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    .top-links-item:first-child,
+    .top-links-sub-menu .top-links-item {
+        border-left: 0 !important;
+    }
+    
+    .top-links-item {
+        position: relative;
+        border-left: 1px solid #EEE;
+    }
+    
+    .dark .top-links li>a,
+    .dark #top-social li a {
+        color: #FFF;
+    }
+    
+    .dark .top-links-item>a {
+        color: #AAA;
+    }
+    
+    .top-links-item>a {
+        display: block;
+        padding: 12px;
+        font-size: 0.75rem;
+        line-height: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #666;
+    }
+    
+    .stretched #wrapper {
+        width: 100%;
+        margin: 0;
+        box-shadow: none;
+    }
+    
+    #wrapper {
+        position: relative;
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #FFF;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    #top-social {
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    
+    .navbar-wrap ul li a::before {
+        background-color: #fa4454;
+    }
+    
+    .mean-container .mean-nav {
+        background: none;
+    }
+    
+    #top-social li .ts-icon {
+        width: 40px;
+        text-align: center;
+        font-size: 0.875rem;
+    }
+    
+    #top-social li .ts-icon,
+    #top-social li .ts-text {
+        display: block;
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        height: 44px;
+        line-height: 44px;
+    }
+    
+    .vl {
+        border-left: 6px solid #e4a101;
+    }
+    
+    #count {
+        background-color: #e4a101;
+    }
+    
+    .yellow {
+        color: #e4a101;
+    }
+    
+    .main-bg {
+        /* background-image: url("img/slider/1.jpg"); */
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 100%;
+    }
+</style>
+
+<body>
+
+    
+
+    <!-- header-area -->
+    <header>
+
+        <div class="header-top-area s-header-top-area d-none d-lg-block">
+            <div class="container-fluid s-container-full-padding">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 d-none d-lg-block">
+                        <div class="header-top-offer">
+                            <p>Valorant</p>
+                            <span class="coming-time" data-countdown="2021/4/05"></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="header-top-right">
+                            <div class="header-social">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="header-top-action">
+                                <ul>
+                                    <li>
+                                        <div class="header-top-mail">
+                                            <p><span>|</span><i class="far fa-envelope"></i><a href="mailto:tournamentbot@esportz.in">tournamentbot@esportz.in</a></p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sticky-header" class="transparent-header d-none">
+            <div class="container-fluid s-container-full-padding">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="main-menu menu-style-two">
+                            <nav class="row">
+                                <div class="logo col">
+                                    <a href="index.html"><img src="img/logo/esportz.png" height="60px" alt="Logo"></a>
+                                </div>
+                                <div class=" col logo-div">
+                                    <a href="index.html"><img id='logo' src="img/logo/epslogo3.png" class="esp-logo" alt="Logo"></a>
+                                </div>
+                                <div id="mobile-menu" class="navbar-wrap d-none d-lg-flex col text-right">
+
+                                    <ul>
+                                        <li class="show"><a href="#" style="color: white;">Home</a>
+                                        </li>
+                                        <li><a href="free-fire.html" style="color: white;">Free Fire</a>
+                                        </li>
+
+                                        <li><a href="fifa.html" style="color: white;">Fifa</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="mobile-menu"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div id='wrapper'>
+
+            <div id="top-bar" class="transparent-topbar dark">
+
+                <div class="row justify-content-around m-0">
+                    <div class="col-auto">
+                        <div class="row">
+
+                            <p class="my-auto px-3">FIFA</p>
+
+                            <div id='count' class=" p-3"> 3</div>
+                            <p class="my-auto px-3">DAYS LEFT</p>
+
+                        </div>
+
+                    </div>
+                    <div class="col-auto   justify-content-center  d-flex flex-column  my-md-0 my-3">
+
+                        <ul id="top-social">
+                            <li><a href="#" class="icon-facebook-f"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#" class="icon-youtube"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#" class="icon-instagram"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+        </div> -->
+    </header>
+    <!-- header-area-end -->
+
+    <!-- main-area -->
+    <section class="w-100">
+        <img id='image' src="img/slider/3.jpg" class="main-bg" alt="">
+    </section>
+    <main>
+
+        <section class="main-bg d-none">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-9">
+                        <div class="slider-content text-center">
+                            <!-- <h6 class="wow fadeInDown" data-wow-delay=".2s"></h6> -->
+                            <h2 class="tlt fix" data-in-effect="fadeInLeft"> <span></span></h2>
+                            <p class="wow fadeInUp" data-wow-delay="2s"></p>
+                            <!-- <a href="#" class="btn wow fadeInUp" data-wow-delay="2.2s"></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- slider-area -->
+        <section class="slider-area d-none">
+            <div class="slider-active">
+                <div class="single-slider slider-bg slider-style-two" style="background-image: url(img/slider/1.jpg); background-size: cover;">
+                    <div class="container-fluid container-full-padding">
+                        <div class="row d-none">
+                            <div class="col-xl-6 col-lg-7 col-md-11">
+                                <div class="slider-content">
+                                    <!-- <h6 data-animation="fadeInUp" data-delay=".4s" style="color: black;">Esportz Premier Series</h6> -->
+                                    <!-- <div class="w-100">
+
+                                        <img class="" src="img/logo/epslogo3.png" data-animation="fadeInUp" data-delay=".4s" alt="" height="100px" width="auto">
+                                    </div> -->
+
+                                    <h2 data-animation="fadeInUp" data-delay=".4s" style="color: black;"> Free <span style="color: white;"> Fire</span> </h2>
+                                    <p data-animation="fadeInUp" data-delay=".6s" style="color: black;">From the scratch to engaging with an audience viewership of 250k and building a YouTube subscriber base of 11.4k in a weeklong affair at Esportz Invitation Series last month. Garena’s popular battle royale and your
+                                        very own favourite mobile title Free Fire returns for an even greater tournament. </p>
+                                    <a href="free-fire.html" class="btn btn-style-two" data-animation="fadeInUp" data-delay=".8s">Register</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="slider-img" data-animation="slideInRightS" data-delay=".6s"><img src="img/slider/ffpng1.png" alt=""></div>
+                    <div class="slider-img slider-img2" data-animation="slideInLeftS" data-delay=".6s"><img src="img/slider/ffpng2.png" alt=""></div> -->
+                    <div class="slider-circle-shape"><img src="img/slider/slider_circle.png" alt="" class="rotateme"></div>
+                </div>
+                <div class="single-slider slider-bg slider-style-two" style="background-image: url(img/slider/2.jpg);">
+                    <div class="container-fluid container-full-padding">
+                        <div class="row d-none">
+                            <div class="col-xl-6 col-lg-7 col-md-11">
+                                <div class="slider-content">
+                                    <!-- <h6 data-animation="fadeInUp" data-delay=".4s">Esportz Premier Series</h6>
+                                     -->
+                                    <!-- <div class="w-100">
+
+                                        <img class="" src="img/logo/epslogo1.png" data-animation="fadeInUp" data-delay=".4s" alt="" height="100px" width="auto">
+                                    </div> -->
+                                    <h2 data-animation="fadeInUp" data-delay=".4s">PC GAME <span> </span> </h2>
+                                    <!-- <p data-animation="fadeInUp" data-delay=".6s">Riot’s FPS title is not even a year old yet since the official release and it is peaking popularity across the world, including India. We couldn't miss on all the agents-packed action. VALORANT will be ticking the title
+                                        for our PC segment at Esportz Premier Series. </p> -->
+                                    <a href="valo.html" class="btn btn-style-two" data-animation="fadeInUp" data-delay=".8s">Register</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="slider-img" data-animation="slideInRightS" data-delay=".6s"><img src="img/slider/valopng1.png" alt=""></div>
+                    <div class="slider-img slider-img2" data-animation="slideInLeftS" data-delay=".6s"><img src="img/slider/valopng2.png" alt=""></div> -->
+                    <div class="slider-circle-shape"><img src="img/slider/slider_circle.png" alt="" class="rotateme"></div>
+                </div>
+                <!-- <div class="single-slider slider-bg slider-style-two" style="background-image: url(img/images/fifa.png);">
+                    <div class="container-fluid container-full-padding">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-7 col-md-11">
+                                <div class="slider-content">
+                                    <h2 data-animation="fadeInUp" data-delay=".4s">FIFA <span> 21 </span> </h2>
+                                    <p data-animation="fadeInUp" data-delay=".6s">Console gamers, get your controllers ready. It's 2021 so don't miss a chance to score big in FIFA 21. The 28th installment of the FIFA series is our final title of the stack to complete our grand event. </p>
+                                    <a href="fifa.html" class="btn btn-style-two" data-animation="fadeInUp" data-delay=".8s">Register</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-img" data-animation="slideInRightS" data-delay=".6s"><img src="img/slider/fifapng1.png" alt=""></div>
+                    <div class="slider-img slider-img2" data-animation="slideInLeftS" data-delay=".6s"><img src="img/slider/fifapng2.png" alt=""></div>
+                    <div class="slider-circle-shape"><img src="img/slider/slider_circle.png" alt="" class="rotateme"></div>
+                </div> -->
+            </div>
+        </section>
+        <!-- slider-area-end -->
+
+        <!-- new-games-area -->
+        <section class="released-games-area gray-bg pt-115 pb-70">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 col-lg-8">
+                        <div class="section-title title-style-three text-center mb-20">
+                            <h2> <span>GAMES</span></h2>
+                            <!-- <p>Compete with 100 players on a remote island for winner takes showdown known issue where certain skin strategic</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-xl-8 col-lg-12">
+                        <div class="released-game-active">
+                            <div class="released-game-carousel">
+                                <div class="released-game-item">
+                                    <div class="released-game-item-bg"></div>
+                                    <div class="released-game-img">
+                                        <img src="img/images/valo.jpg" height="525px" alt="">
+                                    </div>
+                                    <div class="released-game-content">
+                                        <h4>VALORANT <span></span></h4>
+                                        <div class="released-game-list mb-15">
+                                            <ul>
+                                                <li><span>Category :</span>PC</li>
+
+                                                <li><span>Prize Pool :</span>₹1,000,000</li>
+                                            </ul>
+                                        </div>
+                                        <a href="valo.html" class="btn btn-style-two" data-delay=".8s">Register</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="released-game-carousel">
+                                <div class="released-game-item">
+                                    <div class="released-game-item-bg"></div>
+                                    <div class="released-game-img">
+                                        <img src="img/images/ffimage.jpg" height="525px" alt="">
+                                    </div>
+                                    <div class="released-game-content">
+                                        <!-- <div class="released-game-rating">
+                                            <h5>Rating :</h5>
+                                            <div class="released-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div> -->
+                                        <h4>Free <span>Fire</span></h4>
+                                        <div class="released-game-list mb-15">
+                                            <ul>
+                                                <li><span>Category :</span>Mobile </li>
+                                                <!-- <li><span>Format :</span>
+                                                    <ul>
+                                                        <li>150 Teams </li>
+                                                        <li>Pre-Qualifiers 6 days, top 2 teams per group </li>
+                                                        <li>Qualifiers 6 days, top 6 from each group</li>
+                                                        <li>Finale | 3 days: 15 games | 5 games each day</li>
+                                                    </ul>
+
+                                                </li> -->
+                                                <li><span>Prize Pool :</span>₹1,00,000</li>
+                                            </ul>
+                                        </div>
+                                        <!-- <p>Compete with 100 players on a remote thats island for winner takes showdown known issue</p> -->
+                                        <a href="free-fire.html" class="btn btn-style-two">Register</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="released-game-carousel">
+                                <div class="released-game-item">
+                                    <div class="released-game-item-bg"></div>
+                                    <div class="released-game-img">
+                                        <img src="img/images/fifa.jpg" height="525px" alt="">
+                                    </div>
+                                    <div class="released-game-content">
+                                        <!-- <div class="released-game-rating">
+                                            <h5>Rating :</h5>
+                                            <div class="released-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div> -->
+                                        <h4>FIFA <span>21</span></h4>
+                                        <div class="released-game-list mb-15">
+                                            <ul>
+                                                <li><span>Category :</span>Console</li>
+                                                <!-- <li><span>Format :</span>
+                                                    <ul>
+                                                        <li>256 Players </li>
+                                                        <li>Single eliminations till top 8 players </li>
+                                                        <li>Top 8 semi-finals </li>
+                                                        <li>Finale | Best of three </li>
+                                                    </ul>
+
+                                                </li> -->
+                                                <li><span>Prize Pool :</span>₹50,000</li>
+                                            </ul>
+                                        </div>
+                                        <!-- <p>Compete with 100 players on a remote thats island for winner takes showdown known issue</p> -->
+                                        <a href="fifa.html" class="btn btn-style-two" data-delay=".8s">Register</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-12">
+                        <div class="released-game-nav">
+                            <div class="released-game-nav-item">
+                                <img src="img/images/valorant.jpeg" alt="">
+                            </div>
+                            <div class="released-game-nav-item">
+                                <img src="img/images/freefire.jpeg" alt="">
+                            </div>
+                            <div class="released-game-nav-item">
+                                <img src="img/images/fifa.jpeg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100 text-center pt-4">
+
+                    <a href="rules.pdf" target="__blank__" class="btn btn-style-two" data-animation="fadeInUp" data-delay=".8s">Rules</a>
+                </div>
+            </div>
+        </section>
+        <!-- new-games-area-end -->
+
+        <!-- gamers-area -->
+        <section class="just-gamers-area just-gamers-bg pt-115 pb-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-6 col-md-10">
+                        <div class="col-md-6 text-center section-title title-style-three white-title mb-70">
+                            <h1 class="yellow "> INDIA'S</h1>
+                            <p>YEAR LONG ESPORTS CHAMPIONSHIP</p>
+                        </div>
+                        <div class="just-gamers-list">
+                            <!-- <ul>
+                                <li>
+                                    <div class="just-gamers-list-icon">
+                                        <img src="img/icon/gamer_list_icon01.png" alt="">
+                                    </div>
+                                    <div class="just-gamers-list-content fix">
+                                        <h5>VR Development</h5>
+                                        <p>See how well critics rating new video game release with 100 players</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="just-gamers-list-icon">
+                                        <img src="img/icon/gamer_list_icon02.png" alt="">
+                                    </div>
+                                    <div class="just-gamers-list-content fix">
+                                        <h5>Design & Strategy</h5>
+                                        <p>Village and the subline of her own road, the Line Lane. Pityful a rethoric question</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="just-gamers-list-icon">
+                                        <img src="img/icon/gamer_list_icon03.png" alt="">
+                                    </div>
+                                    <div class="just-gamers-list-content fix">
+                                        <h5>Jungle Pharaoh</h5>
+                                        <p>Village and the subline of her own road, the Line Lane. Pityful a rethoric question</p>
+                                    </div>
+                                </li>
+                            </ul> -->
+                            <div class="col-md-6  text-center">
+                                <p>PRIZEPOOL</p>
+                                <h1 class="yellow">₹40,00,000</h1>
+                                <br>
+                                <h3>JAN - DEC <span class="yellow">2021</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-6 d-none d-lg-block">
+                        <div class="just-gamers-img">
+                            <img src="img/images/character.png" height="1080px" alt="" style="transform: translate(-25%,0);" class="just-gamers-character">
+                            <div class="just-gamers-circle-shape">
+                                <img src="img/images/gamers_circle_line.png" alt="">
+                                <img src="img/images/gamers_circle_shape.png" alt="" class="rotateme">
+                            </div>
+                            <div class="gamers-chart-shape col-md-6 text-center">
+
+                                <h4>ONLINE QUALIFIERS TO</h4>
+                                <h2 class="yellow">LAN FINALE</h2>
+                                <div class="d-md-block d-none">
+
+                                    <br><br><br><br><br><br><br><br>
+                                </div>
+                                <a href="valo.html" class="btn btn-style-two" data-animation="fadeInUp" data-delay=".8s">Register</a>
+                            </div>
+                            <!-- <img src="img/images/just_gamers_chart.png" alt="" class="gamers-chart-shape"> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- gamers-area-end -->
+
+        <!-- featured-game-area -->
+        <section class="featured-game-area position-relative pt-115 pb-90">
+            <div class="featured-game-bg"></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 col-lg-8">
+                        <div class="section-title title-style-three text-center mb-70">
+                            <h2> FEATURED <span>GAMES</span></h2>
+                            <!-- <p>Compete with 100 players on a remote island for winner takes showdown known issue where certain skin strategic</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row featured-active">
+                    <div class="col-lg-4 col-sm-6 grid-item">
+                        <div class="featured-game-item mb-30">
+                            <div class="featured-game-thumb">
+                                <img src="img/featured/free-fire.jpg" alt="">
+                            </div>
+                            <div class="featured-game-content">
+                                <h4><a href="free-fire.html">JUST FOR <span>GAMERS</span></a></h4>
+                                <div class="featured-game-meta">
+                                    <i class="fas fa-bell"></i>
+                                    <span>Mobile</span>
+                                </div>
+                            </div>
+                            <div class="featured-game-content featured-game-overlay-content">
+                                <div class="featured-game-icon"><img src="img/icon/featured_game_icon.png" alt=""></div>
+                                <h4><a href="free-fire.html">JUST FOR <span>GAMERS</span></a></h4>
+                                <div class="featured-game-meta">
+                                    <i class="fas fa-bell"></i>
+                                    <span>Mobile</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 grid-item">
+                        <div class="featured-game-item mb-30">
+                            <div class="featured-game-thumb">
+                                <img src="img/featured/fifa.jpg" alt="">
+                            </div>
+                            <div class="featured-game-content">
+                                <h4><a href="fifa.html">JUST FOR <span>GAMERS</span></a></h4>
+                                <div class="featured-game-meta">
+                                    <i class="fas fa-bell"></i>
+                                    <span>Console</span>
+                                </div>
+                            </div>
+                            <div class="featured-game-content featured-game-overlay-content">
+                                <div class="featured-game-icon"><img src="img/icon/featured_game_icon.png" alt=""></div>
+                                <h4><a href="fifa.html">JUST FOR <span>GAMERS</span></a></h4>
+                                <div class="featured-game-meta">
+                                    <i class="fas fa-bell"></i>
+                                    <span>Console</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 grid-item">
+                        <div class="featured-game-item mb-30">
+                            <div class="featured-game-thumb">
+                                <img src="img/featured/valo.jpg" alt="">
+                            </div>
+                            <div class="featured-game-content">
+                                <h4><a href="#">JUST FOR <span>GAMERS</span></a></h4>
+                                <div class="featured-game-meta">
+                                    <i class="fas fa-bell"></i>
+                                    <span>PC</span>
+                                </div>
+                            </div>
+                            <div class="featured-game-content featured-game-overlay-content">
+                                <div class="featured-game-icon"><img src="img/icon/featured_game_icon.png" alt=""></div>
+                                <h4><a href="valo.html">JUST FOR <span>GAMERS</span></a></h4>
+                                <div class="featured-game-meta">
+                                    <i class="fas fa-bell"></i>
+                                    <span>PC</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- featured-game-area-end -->
+
+        <!-- cta-area -->
+        <!-- <section class="cta-area cta-bg">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-xl-5 col-lg-6">
+                        <div class="cta-img">
+                            <img src="img/images/cta_img.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="cta-content">
+                            <div class="cta-icon mb-15">
+                                <img src="img/icon/cta_icon.png" alt="">
+                            </div>
+                            <div class="section-title title-style-three white-title mb-50">
+                                <h2>WORLDS MEET <span>Real</span></h2>
+                                <p>Compete with 100 player on a remote island for winner known issue where certain strategic</p>
+                            </div>
+                            <div class="cta-btn">
+                                <a href="#" class="btn btn-style-two">VIEW RULES</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <section class="w-100">
+            <div class="w-100">
+                <video poster="videos/trailer-poster.png" preload="auto" loop autoplay controls>
+							<source src='videos/trailer.mp4' type='video/mp4' />
+						</video>
+            </div>
+        </section>
+        <!-- cta-area-end -->
+
+        <!-- shop-area -->
+        <!-- <section class="shop-area black-bg pt-115 pb-90">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 col-lg-8">
+                        <div class="section-title title-style-three white-title text-center mb-40">
+                            <h2>Gaming Products <span>Corner</span></h2>
+                            <p>Compete with 100 players on a remote island for winner takes showdown known issue where certain skin strategic</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row product-active">
+                    <div class="col-xl-3">
+                        <div class="shop-item">
+                            <div class="product-thumb">
+                                <a href="#"><img src="img/product/s_product_img01.jpg" alt=""></a>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-tag"><a href="#">t-shirt</a></div>
+                                <h4><a href="#">Women Black T-shirt</a></h4>
+                                <div class="product-meta">
+                                    <div class="product-price">
+                                        <h5>$29.00</h5>
+                                    </div>
+                                    <div class="product-cart-action">
+                                        <a href="#"><i class="fas fa-shopping-basket"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="shop-item">
+                            <div class="product-thumb">
+                                <a href="#"><img src="img/product/s_product_img02.jpg" alt=""></a>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-tag"><a href="#">x-box</a></div>
+                                <h4><a href="#">Gears 5 Xbox Controller</a></h4>
+                                <div class="product-meta">
+                                    <div class="product-price">
+                                        <h5>$29.00</h5>
+                                    </div>
+                                    <div class="product-cart-action">
+                                        <a href="#"><i class="fas fa-shopping-basket"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="shop-item">
+                            <div class="product-thumb">
+                                <a href="#"><img src="img/product/s_product_img03.jpg" alt=""></a>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-tag"><a href="#">graphics</a></div>
+                                <h4><a href="#">GeForce RTX 2070</a></h4>
+                                <div class="product-meta">
+                                    <div class="product-price">
+                                        <h5>$29.00</h5>
+                                    </div>
+                                    <div class="product-cart-action">
+                                        <a href="#"><i class="fas fa-shopping-basket"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="shop-item">
+                            <div class="product-thumb">
+                                <a href="#"><img src="img/product/s_product_img04.jpg" alt=""></a>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-tag"><a href="#">VR-Box</a></div>
+                                <h4><a href="#">Virtual Reality Smiled</a></h4>
+                                <div class="product-meta">
+                                    <div class="product-price">
+                                        <h5>$29.00</h5>
+                                    </div>
+                                    <div class="product-cart-action">
+                                        <a href="#"><i class="fas fa-shopping-basket"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="shop-item">
+                            <div class="product-thumb">
+                                <a href="#"><img src="img/product/s_product_img04.jpg" alt=""></a>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-tag"><a href="#">VR-Box</a></div>
+                                <h4><a href="#">Virtual Reality Smiled</a></h4>
+                                <div class="product-meta">
+                                    <div class="product-price">
+                                        <h5>$29.00</h5>
+                                    </div>
+                                    <div class="product-cart-action">
+                                        <a href="#"><i class="fas fa-shopping-basket"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- shop-area-end -->
+
+        <!-- blog-area -->
+        <!-- <section class="blog-area pt-115 pb-120">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 col-lg-8">
+                        <div class="section-title title-style-three text-center mb-70">
+                            <h2>Latest News <span>Articles</span></h2>
+                            <p>Compete with 100 players on a remote island for winner takes showdown known issue where certain skin strategic</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-post blog-style-two mb-50">
+                            <div class="blog-thumb mb-30">
+                                <a href="#"><img src="img/blog/s_blog_thumb01.jpg" alt=""></a>
+                            </div>
+                            <div class="blog-post-content">
+                                <h4><a href="#">Shooter action video game</a></h4>
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><i class="far fa-clock"></i>July 4, 2020</li>
+                                        <li><i class="fas fa-tag"></i><a href="#">Shooter</a></li>
+                                    </ul>
+                                </div>
+                                <p>Compete with 100 players on a remote island for winner takes showdown known for issue where certain skin strategic [...]</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-post blog-style-two mb-50">
+                            <div class="blog-thumb mb-30">
+                                <a href="#"><img src="img/blog/s_blog_thumb02.jpg" alt=""></a>
+                            </div>
+                            <div class="blog-post-content">
+                                <h4><a href="#">multiplayer environments</a></h4>
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><i class="far fa-clock"></i>July 4, 2020</li>
+                                        <li><i class="fas fa-tag"></i><a href="#">Shooter</a></li>
+                                    </ul>
+                                </div>
+                                <p>Compete with 100 players on a remote island for winner takes showdown known for issue where certain skin strategic [...]</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-post blog-style-two mb-50">
+                            <div class="blog-thumb mb-30">
+                                <a href="#"><img src="img/blog/s_blog_thumb03.jpg" alt=""></a>
+                            </div>
+                            <div class="blog-post-content">
+                                <h4><a href="#">Bullet Force Multiplayer</a></h4>
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><i class="far fa-clock"></i>July 4, 2020</li>
+                                        <li><i class="fas fa-tag"></i><a href="#">Shooter</a></li>
+                                    </ul>
+                                </div>
+                                <p>Compete with 100 players on a remote island for winner takes showdown known for issue where certain skin strategic [...]</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- blog-area-end -->
+
+    </main>
+    <!-- main-area-end -->
+    <footer id="footer" style="font-family: ' Montserrat ', Helvetica, sans-serif; font-weight: normal !important; font-style: normal;line-height: 24px;">
+        <div class="container">
+            <div class="row footer-widgets">
+
+                <!-- footer widget about-->
+                <div class="col-sm-6 col-xs-12">
+                    <div class="footer-widget f-widget-about">
+                        <div class="col-sm-12">
+                            <div class="row">
+                                <p class="footer-logo">
+                                    <img src="https://esportz.in/uploads/logo/logo_5f393de365bf81.png" alt="logo" class="logo">
+                                </p>
+                                <p>
+                                    esportz.in – A fan engagement and a gaming experience platform dedicated to esports and the gaming community. esportz.in provides latest gaming news to hard-core gamers as well as casual gamers. It’s a one stop hub for all gaming needs where gamers can
+                                    get latest updates about gaming and also participate in competitive community tournaments. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-sm-4 -->
+
+                <!-- footer widget random posts-->
+
+
+
+                <!-- footer widget follow us-->
+                <div class="col-sm-6 col-xs-12" style="margin-top: 62px;">
+                    <div class="col-sm-12 footer-widget f-widget-follow">
+                        <div class="row">
+                            <h4 class="title w-100">Social Media</h4>
+                            <ul>
+                                <!--Include social media links-->
+                                <!--if facebook url exists-->
+                                <li>
+                                    <a class="facebook" href="https://www.facebook.com/esportzofficial" target="_blank"><i class="icon-facebook"></i></a>
+                                </li>
+                                <!--if twitter url exists-->
+                                <li>
+                                    <a class="twitter" href="https://twitter.com/esportzofficial" target="_blank"><i class="icon-twitter"></i></a>
+                                </li>
+                                <!--if pinterest url exists-->
+                                <!--if instagram url exists-->
+                                <li>
+                                    <a class="instagram" href="https://www.instagram.com/esportz.in/" target="_blank"><i class="icon-instagram"></i></a>
+                                </li>
+                                <!--if linkedin url exists-->
+
+                                <!--if vk url exists-->
+
+                                <!--if telegram url exists-->
+                                <li>
+                                    <a class="telegram" href="https://t.me/esportzindia" target="_blank"><i class="icon-telegram"></i></a>
+                                </li>
+
+                                <!--if youtube url exists-->
+                                <li>
+                                    <a class="youtube" href="https://www.youtube.com/channel/UCHYq5NdnrfYgoA5vBivViAw" target="_blank"><i class="icon-youtube"></i></a>
+                                </li>
+
+                                <!--if rss active-->
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- newsletter -->
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="widget-newsletter w-100">
+                                <p>Subscribe here to get interesting stuff and updates!</p>
+                                <form action="https://esportz.in/add-to-newsletter" method="post" accept-charset="utf-8">
+                                    <input type="hidden" name="varient_csrf_token" value="3fe463e28eff3cb43d2dcce4d317da41">
+                                    <div class="newsletter">
+                                        <div class="left">
+                                            <input type="email" name="email" id="newsletter_email_footer" maxlength="199" placeholder="Email Address" required="">
+                                        </div>
+                                        <div class="right">
+                                            <button type="submit" id="btn_subscribe_footer" class="newsletter-button">Subscribe</button>
+                                        </div>
+                                    </div>
+                                    <p id="newsletter">
+                                    </p>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- .col-md-3 -->
+            </div>
+            <!-- .row -->
+
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer-bottom-left">
+                            <p>Copyright@2020 Gig Work Private Limited</p>
+                        </div>
+
+                        <div class="footer-bottom-right">
+                            <ul class="nav-footer">
+                                <li>
+                                    <a href="https://esportz.in/contact">Contact </a>
+                                </li>
+                                <li>
+                                    <a href="https://esportz.in/terms-conditions">Terms &amp; Conditions </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- .row -->
+            </div>
+        </div>
+    </footer>
+    <!-- footer-area -->
+    <!-- <footer>
+        <div class="footer-top footer-bg s-footer-bg">
+            <div class="newsletter-area s-newsletter-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="newsletter-wrap">
+                                <div class="section-title newsletter-title">
+                                    <h2>Our <span>Newsletter</span></h2>
+                                </div>
+                                <div class="newsletter-form">
+                                    <form action="#">
+                                        <div class="newsletter-form-grp">
+                                            <i class="far fa-envelope"></i>
+                                            <input type="email" placeholder="Enter your email...">
+                                        </div>
+                                        <button>SUBSCRIBE <i class="fas fa-paper-plane"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="footer-widget mb-50">
+                            <div class="footer-logo mb-35">
+                                <a href="index.html"><img src="img/logo/logo.png" alt=""></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>Gemas marketplace the relase etras thats sheets continig passag.</p>
+                                <div class="footer-contact">
+                                    <ul>
+                                        <li><i class="fas fa-map-marker-alt"></i> <span>Address : </span>PO Box W75 Street lan West new queens</li>
+                                        <li><i class="fas fa-headphones"></i> <span>Phone : </span>+24 1245 654 235</li>
+                                        <li><i class="fas fa-envelope-open"></i><span>Email : </span>info@exemple.com</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-sm-6">
+                        <div class="footer-widget mb-50">
+                            <div class="fw-title mb-35">
+                                <h5>Products</h5>
+                            </div>
+                            <div class="fw-link">
+                                <ul>
+                                    <li><a href="#">Graphics (26)</a></li>
+                                    <li><a href="#">Backgrounds (11)</a></li>
+                                    <li><a href="#">Fonts (9)</a></li>
+                                    <li><a href="#">Music (3)</a></li>
+                                    <li><a href="#">Photography (3)</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-sm-6">
+                        <div class="footer-widget mb-50">
+                            <div class="fw-title mb-35">
+                                <h5>Need Help?</h5>
+                            </div>
+                            <div class="fw-link">
+                                <ul>
+                                    <li><a href="#">Terms & Conditions</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Refund Policy</a></li>
+                                    <li><a href="#">Affiliate</a></li>
+                                    <li><a href="#">FAQUse Cases</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="footer-widget mb-50">
+                            <div class="fw-title mb-35">
+                                <h5>Follow us</h5>
+                            </div>
+                            <div class="footer-social">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-widget mb-50">
+                            <div class="fw-title mb-35">
+                                <h5>Newsletter Sign Up</h5>
+                            </div>
+                            <div class="footer-newsletter">
+                                <form action="#">
+                                    <input type="text" placeholder="Enter your email">
+                                    <button><i class="fas fa-rocket"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-fire"><img src="img/images/footer_fire.png" alt=""></div>
+            <div class="footer-fire footer-fire-right"><img src="img/images/footer_fire.png" alt=""></div>
+        </div>
+        <div class="copyright-wrap s-copyright-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="copyright-text">
+                            <p>Copyright © 2020 <a href="#">Geco</a> All Rights Reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 d-none d-md-block">
+                        <div class="payment-method-img text-right">
+                            <img src="img/images/card_img.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+    <!-- footer-area-end -->
+
+
+
+
+
+    <!-- JS here -->
+    <script src="js/vendor/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.lettering.js"></script>
+    <script src="js/jquery.textillate.js"></script>
+    <script src="js/jquery.odometer.min.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+<script>
+    $(document).ready(function() {
+
+        // const oneDay = 24 * 60 * 60 * 1000;
+        // const firstDate = new Date();
+        // const secondDate = new Date(2021, 1, 14);
+        // const diffDays = Math.round(Math.abs((firstDate - secondDate) / oneDay));
+        // $('#count').text(diffDays);
+
+        setInterval(function() {
+            // var src = ($('#image').attr('src') === 'img/slider/1.jpg') ?
+            //     'img/slider/2.jpg' :
+            //     'img/slider/1.jpg';
+            var image = $('#image').attr('src');
+            if (image === 'img/slider/1.jpg') {
+                var src = 'img/slider/2.jpg'
+            }
+            if (image === 'img/slider/2.jpg') {
+                var src = 'img/slider/3.jpg'
+            }
+            if (image === 'img/slider/3.jpg') {
+                var src = 'img/slider/1.jpg'
+            }
+            // console.log($('#image').attr('src'));
+            // console.log(src);
+            $('#image').attr('src', src);
+        }, 5000);
+    });
+</script>
+
+</html>

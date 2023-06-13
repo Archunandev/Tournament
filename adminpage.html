@@ -1,0 +1,71 @@
+<?php
+session_start();
+
+// Check if the user is logged in and has admin privileges
+if (!isset($_SESSION["logged_in"]) || !isset($_SESSION["is_admin"]) || !$_SESSION["is_admin"]) {
+    header("Location: login.php");
+    exit;
+}
+
+// Connect to the database
+$conn = mysqli_connect("host", "username", "password", "database_name");
+
+// Check if the form to create a new tournament has been submitted
+if (isset($_POST["create_tournament"])) {
+    // Get the form data
+    $name = mysqli_real_escape_string($conn, $_POST["name"]);
+    $start_date = mysqli_real_escape_string($conn, $_POST["start_date"]);
+    $end_date = mysqli_real_escape_string($conn, $_POST["end_date"]);
+
+    // Insert the tournament into the database
+    $sql = "INSERT INTO tournaments (name, start_date, end_date) VALUES ('$name', '$start_date', '$end_date')";
+    mysqli_query($conn, $sql);
+
+    // Redirect to the tournament list page
+    header("Location: tournaments.php");
+    exit;
+}
+
+// Get the list of tournaments from the database
+$sql = "SELECT * FROM tournaments";
+$result = mysqli_query($conn, $sql);
+$tournaments = mysqli_fetch_all($result, MYSQLI_ASSOC);
+
+// Close the database connection
+mysqli_close($conn);
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tournament Admin</title>
+</head>
+<body>
+    <h1>Tournament Admin</h1>
+
+    <h2>Create a new tournament</h2>
+    <form method="post" action="admin.php">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="start_date">Start Date:</label>
+        <input type="date" id="start_date" name="start_date" required>
+        <br>
+        <label for="end_date">End Date:</label>
+        <input type="date" id="end_date" name="end_date" required>
+        <br>
+        <input type="submit" name="create_tournament" value="Create">
+    </form>
+
+    <h2>Tournament List</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Actions</th>
+        </tr>
+        <?php foreach ($tournaments as $tournament): ?>
+            <tr>
+                <td><?php echo $tournament["name"]; ?></td>
+                <td><?php echo $tournament["start_date"];
